@@ -1,0 +1,26 @@
+[gd_scene load_steps=4 format=3 uid="uid://b1b6n0tb0jn1u"]
+
+[ext_resource type="Script" path="res://Scripts/Dagger.cs" id="1_68r2s"]
+[ext_resource type="Texture2D" uid="uid://qxlo1c1vsgmx" path="res://TileSets/dagger.png" id="2_ydlff"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_j2ppb"]
+size = Vector2(12, 4)
+
+[node name="dagger" type="Area2D"]
+collision_layer = 2
+collision_mask = 5
+script = ExtResource("1_68r2s")
+maxDistance = 200.0
+
+[node name="Timer" type="Timer" parent="."]
+
+[node name="Sprite" type="Sprite2D" parent="."]
+scale = Vector2(1.5, 1)
+texture = ExtResource("2_ydlff")
+
+[node name="Hitbox" type="CollisionShape2D" parent="."]
+shape = SubResource("RectangleShape2D_j2ppb")
+
+[connection signal="body_entered" from="." to="." method="_on_body_entered"]
+[connection signal="ready" from="." to="." method="_Ready"]
+[connection signal="timeout" from="Timer" to="." method="_on_timer_timeout"]
