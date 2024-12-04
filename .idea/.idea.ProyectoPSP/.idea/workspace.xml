@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a72b817c-0947-4f6f-8cb3-aa0143ff6e2c" name="Changes" comment="" />
+    <list default="true" id="a72b817c-0947-4f6f-8cb3-aa0143ff6e2c" name="Changes" comment="agregado la escena del castillo que se encarga de pasar de pantalla, un menu funcional (aunque sin nada mas que los botones, nada para la vista), añadido la muerte del slime mediante las dagas." />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -19,7 +19,7 @@
     <option name="autoShow" value="false" />
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/Scripts" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GitHubPullRequestSearchHistory">{
   &quot;lastFilter&quot;: {
@@ -52,6 +52,7 @@
     ".NET Executable.Editor.executor": "Run",
     ".NET Executable.Player.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "master",
     "ignore.virus.scanning.warn.message": "true",
     "last_opened_file_path": "C:/Users/UsuarioT/Documents/proyectopsp",
     "node.js.detected.package.eslint": "true",
@@ -131,6 +132,7 @@
       <workItem from="1733248361837" duration="7983000" />
       <workItem from="1733322823880" duration="751000" />
       <workItem from="1733323599683" duration="198000" />
+      <workItem from="1733323827603" duration="300000" />
     </task>
     <task id="LOCAL-00001" summary=".">
       <option name="closed" value="true" />
@@ -180,7 +182,15 @@
       <option name="project" value="LOCAL" />
       <updated>1733323199069</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="agregado la escena del castillo que se encarga de pasar de pantalla, un menu funcional (aunque sin nada mas que los botones, nada para la vista), añadido la muerte del slime mediante las dagas.">
+      <option name="closed" value="true" />
+      <created>1733323917083</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1733323917083</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -188,6 +198,17 @@
   </component>
   <component name="UnityCheckinConfiguration" checkUnsavedScenes="true" />
   <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <option name="CHECK_NEW_TODO" value="false" />
     <option name="LOCAL_CHANGES_DETAILS_PREVIEW_SHOWN" value="false" />
