@@ -1,0 +1,16 @@
+res://Scenes/death_screen.tscn
+res://Scenes/menu.tscn
+res://Scenes/principal.tscn
+res://Scenes/parte_2.tscn
+res://Scenes/player.tscn
+res://Scenes/slime.tscn
+res://Scenes/castle.tscn
+res://Scripts/Coin.cs
+res://Scripts/Slime.cs
+res://Scripts/Killzone.cs
+res://Scripts/Menu.cs
+res://Scripts/Dagger.cs
+res://Scripts/Player.cs
+res://Scripts/Castle.cs
+res://Scripts/GameManager.cs
+res://Scripts/DeathScreen.cs

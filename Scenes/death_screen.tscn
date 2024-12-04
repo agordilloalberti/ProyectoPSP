@@ -1,0 +1,77 @@
+[gd_scene load_steps=6 format=3 uid="uid://k6nvqu3ynjn4"]
+
+[ext_resource type="Script" path="res://Scripts/DeathScreen.cs" id="1_bltbe"]
+[ext_resource type="Texture2D" uid="uid://cxrjehyhclla8" path="res://ExtraSprites/DeathScreenBackground-1.png" id="2_um3no"]
+[ext_resource type="Texture2D" uid="uid://dyu8j2y1gws11" path="res://ExtraSprites/DeathScreenBackground-2.png" id="3_jlam1"]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_kmxkq"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("2_um3no")
+}, {
+"duration": 1.0,
+"texture": ExtResource("3_jlam1")
+}],
+"loop": true,
+"name": &"default",
+"speed": 5.0
+}]
+
+[sub_resource type="LabelSettings" id="LabelSettings_ok3j5"]
+font_size = 50
+
+[node name="DeathScreen" type="Control"]
+layout_mode = 3
+anchor_right = 0.698
+anchor_bottom = 1.0
+offset_right = 143.904
+offset_bottom = 76.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_bltbe")
+
+[node name="Background" type="AnimatedSprite2D" parent="."]
+position = Vector2(574, 439.5)
+scale = Vector2(8.95313, 6.88281)
+sprite_frames = SubResource("SpriteFrames_kmxkq")
+autoplay = "default"
+frame_progress = 0.365677
+
+[node name="VBoxContainer" type="VBoxContainer" parent="."]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -87.0
+offset_top = 145.0
+offset_right = 261.0
+offset_bottom = 373.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_constants/separation = 20
+
+[node name="Label" type="Label" parent="VBoxContainer"]
+layout_mode = 2
+text = "You Died"
+label_settings = SubResource("LabelSettings_ok3j5")
+horizontal_alignment = 1
+
+[node name="HBoxContainer" type="HBoxContainer" parent="VBoxContainer"]
+layout_mode = 2
+theme_override_constants/separation = 20
+
+[node name="BackTitle" type="Button" parent="VBoxContainer/HBoxContainer"]
+layout_mode = 2
+size_flags_horizontal = 3
+text = "Go back to title"
+
+[node name="BackScene1" type="Button" parent="VBoxContainer/HBoxContainer"]
+layout_mode = 2
+size_flags_horizontal = 3
+text = "Go back to start"
+
+[connection signal="pressed" from="VBoxContainer/HBoxContainer/BackTitle" to="." method="_on_back_title_pressed"]
+[connection signal="pressed" from="VBoxContainer/HBoxContainer/BackScene1" to="." method="_on_back_scene_1_pressed"]

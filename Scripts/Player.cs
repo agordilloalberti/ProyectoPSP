@@ -17,6 +17,8 @@ public partial class Player : CharacterBody2D
 	private bool scriptedScene = false;
 	private PackedScene dagger;
 	private AnimatedSprite2D player;
+	private Camera2D camera;
+	private bool locked = false;
 	private static bool LR;
 	public static bool dead;
 
@@ -25,6 +27,7 @@ public partial class Player : CharacterBody2D
 		player = GetNode<AnimatedSprite2D>("AnimatedSprite2D");
 		dagger = GD.Load<PackedScene>("res://Scenes/dagger.tscn");
 		throwTimer = GetNode<Timer>("Timer");
+		camera = GetNode<Camera2D>("Camera2D");
 		throwTimer.OneShot = true;
 	}
 		
@@ -67,6 +70,17 @@ public partial class Player : CharacterBody2D
 		if (player.Animation!="death")
 		{
 			player.Play("death");
+		}
+
+		if (!locked)
+		{
+			//TODO Make the camera fixed after player death
+			camera.GlobalPosition = player.GlobalPosition;
+			locked = true;
+		}
+		else
+		{
+			camera.GlobalPosition = camera.GlobalPosition;
 		}
 		SetCollisionLayerValue(2,false);
 		SetCollisionLayerValue(3,true);

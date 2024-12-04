@@ -21,8 +21,7 @@ public partial class Killzone : Area2D
 
     private void _on_timer_timeout()
     {
-        //TODO: make a game over screen and set it to change here as well as make it reload scene 1 or menu by player choice
-        GetTree().ReloadCurrentScene();
+        GetTree().ChangeSceneToFile("res://Scenes/death_screen.tscn");
         GameManager.reset();
         Engine.TimeScale = 1;
         Player.dead = false;

@@ -15,3 +15,4 @@ C:\Users\UsuarioT\Documents\proyectopsp\.godot\mono\temp\obj\Debug\refint\Proyec
 C:\Users\UsuarioT\Documents\proyectopsp\.godot\mono\temp\obj\Debug\ProyectoPSP.pdb
 C:\Users\UsuarioT\Documents\proyectopsp\.godot\mono\temp\obj\Debug\ProyectoPSP.genruntimeconfig.cache
 C:\Users\UsuarioT\Documents\proyectopsp\.godot\mono\temp\obj\Debug\ref\ProyectoPSP.dll
+C:\Users\UsuarioT\Documents\proyectopsp\.godot\mono\temp\obj\Debug\ProyectoPSP.sourcelink.json
