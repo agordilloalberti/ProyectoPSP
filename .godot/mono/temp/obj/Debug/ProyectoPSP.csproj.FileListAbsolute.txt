@@ -1,0 +1,17 @@
+C:\Users\UsuarioT\Documents\proyectopsp\.godot\mono\temp\bin\Debug\ProyectoPSP.deps.json
+C:\Users\UsuarioT\Documents\proyectopsp\.godot\mono\temp\bin\Debug\ProyectoPSP.runtimeconfig.json
+C:\Users\UsuarioT\Documents\proyectopsp\.godot\mono\temp\bin\Debug\ProyectoPSP.dll
+C:\Users\UsuarioT\Documents\proyectopsp\.godot\mono\temp\bin\Debug\ProyectoPSP.pdb
+C:\Users\UsuarioT\Documents\proyectopsp\.godot\mono\temp\bin\Debug\GodotSharp.dll
+C:\Users\UsuarioT\Documents\proyectopsp\.godot\mono\temp\bin\Debug\GodotSharpEditor.dll
+C:\Users\UsuarioT\Documents\proyectopsp\.godot\mono\temp\obj\Debug\ProyectoPSP.csproj.AssemblyReference.cache
+C:\Users\UsuarioT\Documents\proyectopsp\.godot\mono\temp\obj\Debug\ProyectoPSP.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\UsuarioT\Documents\proyectopsp\.godot\mono\temp\obj\Debug\ProyectoPSP.AssemblyInfoInputs.cache
+C:\Users\UsuarioT\Documents\proyectopsp\.godot\mono\temp\obj\Debug\ProyectoPSP.AssemblyInfo.cs
+C:\Users\UsuarioT\Documents\proyectopsp\.godot\mono\temp\obj\Debug\ProyectoPSP.csproj.CoreCompileInputs.cache
+C:\Users\UsuarioT\Documents\proyectopsp\.godot\mono\temp\obj\Debug\Proyecto.CEBA0850.Up2Date
+C:\Users\UsuarioT\Documents\proyectopsp\.godot\mono\temp\obj\Debug\ProyectoPSP.dll
+C:\Users\UsuarioT\Documents\proyectopsp\.godot\mono\temp\obj\Debug\refint\ProyectoPSP.dll
+C:\Users\UsuarioT\Documents\proyectopsp\.godot\mono\temp\obj\Debug\ProyectoPSP.pdb
+C:\Users\UsuarioT\Documents\proyectopsp\.godot\mono\temp\obj\Debug\ProyectoPSP.genruntimeconfig.cache
+C:\Users\UsuarioT\Documents\proyectopsp\.godot\mono\temp\obj\Debug\ref\ProyectoPSP.dll
