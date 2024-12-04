@@ -1,0 +1,40 @@
+[gd_scene load_steps=6 format=3 uid="uid://dc1oqowdaewmy"]
+
+[ext_resource type="Script" path="res://Scripts/Castle.cs" id="1_8i6x3"]
+[ext_resource type="Texture2D" uid="uid://dubyv53b1lbvt" path="res://ExtraSprites/Castle.png" id="1_mpuyn"]
+[ext_resource type="Texture2D" uid="uid://bilq4e3m3khio" path="res://ExtraSprites/Castle-closed.png" id="3_un1bv"]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_ycgod"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("1_mpuyn")
+}, {
+"duration": 1.0,
+"texture": ExtResource("3_un1bv")
+}],
+"loop": false,
+"name": &"default",
+"speed": 1.0
+}]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_fklu4"]
+size = Vector2(48, 30.75)
+
+[node name="Castle" type="Area2D"]
+collision_mask = 2
+script = ExtResource("1_8i6x3")
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+position = Vector2(2.25, 31.75)
+scale = Vector2(1.03103, 0.656757)
+sprite_frames = SubResource("SpriteFrames_ycgod")
+autoplay = "default"
+frame = 1
+frame_progress = 1.0
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(2, 76.625)
+shape = SubResource("RectangleShape2D_fklu4")
+
+[connection signal="body_entered" from="." to="." method="_on_body_entered"]

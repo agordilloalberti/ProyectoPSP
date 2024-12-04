@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://dubyv53b1lbvt"
-path="res://.godot/imported/Castle.png-fdebff9feccc7d7a664823f3bff06feb.ctex"
+uid="uid://qxlo1c1vsgmx"
+path="res://.godot/imported/dagger.png-f608d5074625003295094e4c6dbe34c3.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://TileSets/Castle.png"
-dest_files=["res://.godot/imported/Castle.png-fdebff9feccc7d7a664823f3bff06feb.ctex"]
+source_file="res://ExtraSprites/dagger.png"
+dest_files=["res://.godot/imported/dagger.png-f608d5074625003295094e4c6dbe34c3.ctex"]
 
 [params]
 

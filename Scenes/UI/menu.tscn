@@ -1,6 +1,6 @@
 [gd_scene load_steps=2 format=3 uid="uid://v6yhlt1l4e4w"]
 
-[ext_resource type="Script" path="res://Scripts/Menu.cs" id="1_6fyx0"]
+[ext_resource type="Script" path="res://Scripts/Menu.cs" id="1_1kmjy"]
 
 [node name="Menu" type="Control"]
 layout_mode = 3
@@ -11,7 +11,7 @@ grow_horizontal = 2
 grow_vertical = 2
 size_flags_horizontal = 3
 size_flags_vertical = 3
-script = ExtResource("1_6fyx0")
+script = ExtResource("1_1kmjy")
 
 [node name="ColorRect" type="ColorRect" parent="."]
 layout_mode = 1

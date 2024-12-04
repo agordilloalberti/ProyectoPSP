@@ -13,6 +13,7 @@ public partial class GameManager : Node
     public static void addPoints(int i)
     {
         points += i;
+        //scoreLabel.Text = points.ToString();
     }
 
     public static void reset()

@@ -10,8 +10,8 @@ public partial class Player : CharacterBody2D
 	[Export]
 	private bool NoClip = false;
 	[Export] 
-	private int throwCooldown = 1;
-
+	private float throwCooldown = 1f;
+	
 	private bool throwing = false;
 	private Timer throwTimer;
 	private bool scriptedScene = false;
@@ -19,15 +19,16 @@ public partial class Player : CharacterBody2D
 	private AnimatedSprite2D player;
 	private Camera2D camera;
 	private bool locked = false;
-	private static bool LR;
-	public static bool dead;
+	private bool LR;
+	public bool dead;
+	public bool isOnLadder = false;
 
 	public override void _Ready()
 	{
 		player = GetNode<AnimatedSprite2D>("AnimatedSprite2D");
-		dagger = GD.Load<PackedScene>("res://Scenes/dagger.tscn");
+		dagger = GD.Load<PackedScene>("res://Scenes/Props/dagger.tscn");
 		throwTimer = GetNode<Timer>("Timer");
-		camera = GetNode<Camera2D>("Camera2D");
+		camera = GetNode<Camera2D>("/root/Game/Camera2D");
 		throwTimer.OneShot = true;
 	}
 		
@@ -40,7 +41,7 @@ public partial class Player : CharacterBody2D
 			if (!dead)
 			{
 				shoot(LR);
-
+				camera.GlobalPosition = this.GlobalPosition;
 				velocity = Jump(velocity);
 
 				int direction = Move(velocity);
@@ -71,17 +72,6 @@ public partial class Player : CharacterBody2D
 		{
 			player.Play("death");
 		}
-
-		if (!locked)
-		{
-			//TODO Make the camera fixed after player death
-			camera.GlobalPosition = player.GlobalPosition;
-			locked = true;
-		}
-		else
-		{
-			camera.GlobalPosition = camera.GlobalPosition;
-		}
 		SetCollisionLayerValue(2,false);
 		SetCollisionLayerValue(3,true);
 		SetCollisionMaskValue(3,false);
@@ -97,7 +87,7 @@ public partial class Player : CharacterBody2D
 
 	private Vector2 animation(Vector2 velocity,Double delta)
 	{
-		if (!IsOnFloor())
+		if (!IsOnFloor() && !isOnLadder)
 		{
 			player.Play("roll");
 			velocity += GetGravity() * (float)delta;
@@ -152,12 +142,23 @@ public partial class Player : CharacterBody2D
 
 	private Vector2 Jump(Vector2 velocity)
 	{
-		if (Input.IsActionJustPressed("jump")
-		    && (IsOnFloor() || NoClip)
-		    )
+		if (!isOnLadder)
 		{
-			velocity.Y = JumpVelocity;
+			if (Input.IsActionJustPressed("jump")
+			    && (IsOnFloor() || NoClip)
+			   )
+			{
+				velocity.Y = JumpVelocity;
+			}
 		}
+		else
+		{
+			if (Input.IsActionPressed("jump") || Input.IsActionPressed("down"))
+			{
+				
+			}
+		}
+
 		return velocity;
 	}
 
@@ -180,10 +181,9 @@ public partial class Player : CharacterBody2D
 		throwing=false;
 	} 
 
-	public void enterCastle()
+	public void enterCastle(String nextWorld)
 	{
 		//scriptedScene = true;
-		GD.Print(GetTree().CurrentScene.ToString());
-		GetTree().ChangeSceneToFile("res://Scenes/parte_2.tscn");
+		GetTree().ChangeSceneToFile(nextWorld);
 	}
 }

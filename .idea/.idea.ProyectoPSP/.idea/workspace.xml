@@ -4,40 +4,60 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a72b817c-0947-4f6f-8cb3-aa0143ff6e2c" name="Changes" comment=".">
+    <list default="true" id="a72b817c-0947-4f6f-8cb3-aa0143ff6e2c" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.godot/editor/castle.tscn-editstate-99e786b72776d1b272cda6ce94c6a625.cfg" beforeDir="false" afterPath="$PROJECT_DIR$/.godot/editor/castle.tscn-editstate-99e786b72776d1b272cda6ce94c6a625.cfg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.godot/editor/castle.tscn-folding-99e786b72776d1b272cda6ce94c6a625.cfg" beforeDir="false" afterPath="$PROJECT_DIR$/.godot/editor/castle.tscn-folding-99e786b72776d1b272cda6ce94c6a625.cfg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.godot/editor/coin.tscn-editstate-cfd538a465b9799b811984d89e43d2b9.cfg" beforeDir="false" afterPath="$PROJECT_DIR$/.godot/editor/coin.tscn-editstate-cfd538a465b9799b811984d89e43d2b9.cfg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.godot/editor/create_recent.Node" beforeDir="false" afterPath="$PROJECT_DIR$/.godot/editor/create_recent.Node" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.godot/editor/dagger.tscn-editstate-0358d167f677bf5426d23f4b6ebf46c6.cfg" beforeDir="false" afterPath="$PROJECT_DIR$/.godot/editor/dagger.tscn-editstate-0358d167f677bf5426d23f4b6ebf46c6.cfg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.godot/editor/death_screen.tscn-editstate-1723bcdcd4c84eb838c396c928e9efc8.cfg" beforeDir="false" afterPath="$PROJECT_DIR$/.godot/editor/death_screen.tscn-editstate-1723bcdcd4c84eb838c396c928e9efc8.cfg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.godot/editor/editor_layout.cfg" beforeDir="false" afterPath="$PROJECT_DIR$/.godot/editor/editor_layout.cfg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.godot/editor/filesystem_cache8" beforeDir="false" afterPath="$PROJECT_DIR$/.godot/editor/filesystem_cache8" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.godot/editor/filesystem_update4" beforeDir="false" afterPath="$PROJECT_DIR$/.godot/editor/filesystem_update4" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.godot/editor/killzone.tscn-editstate-d1af5ecceb7d635322ae60fe36e3ac29.cfg" beforeDir="false" afterPath="$PROJECT_DIR$/.godot/editor/killzone.tscn-editstate-d1af5ecceb7d635322ae60fe36e3ac29.cfg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.godot/editor/menu.tscn-editstate-53a0af8f00fbc899d4d541c34a803049.cfg" beforeDir="false" afterPath="$PROJECT_DIR$/.godot/editor/menu.tscn-editstate-53a0af8f00fbc899d4d541c34a803049.cfg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.godot/editor/menu.tscn-folding-53a0af8f00fbc899d4d541c34a803049.cfg" beforeDir="false" afterPath="$PROJECT_DIR$/.godot/editor/menu.tscn-folding-53a0af8f00fbc899d4d541c34a803049.cfg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.godot/editor/parte_2.tscn-editstate-11e7b095e99cf64af1f8409b0a04ae34.cfg" beforeDir="false" afterPath="$PROJECT_DIR$/.godot/editor/parte_2.tscn-editstate-11e7b095e99cf64af1f8409b0a04ae34.cfg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.godot/editor/parte_2.tscn-folding-11e7b095e99cf64af1f8409b0a04ae34.cfg" beforeDir="false" afterPath="$PROJECT_DIR$/.godot/editor/parte_2.tscn-folding-11e7b095e99cf64af1f8409b0a04ae34.cfg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.godot/editor/player.tscn-editstate-1753c997600d68ab5d20ae99fddb15c6.cfg" beforeDir="false" afterPath="$PROJECT_DIR$/.godot/editor/player.tscn-editstate-1753c997600d68ab5d20ae99fddb15c6.cfg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.godot/editor/principal.tscn-editstate-3d1285dbdbd0404c84ce957ccd75941b.cfg" beforeDir="false" afterPath="$PROJECT_DIR$/.godot/editor/principal.tscn-editstate-3d1285dbdbd0404c84ce957ccd75941b.cfg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.godot/editor/principal.tscn-folding-3d1285dbdbd0404c84ce957ccd75941b.cfg" beforeDir="false" afterPath="$PROJECT_DIR$/.godot/editor/principal.tscn-folding-3d1285dbdbd0404c84ce957ccd75941b.cfg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.godot/editor/project_metadata.cfg" beforeDir="false" afterPath="$PROJECT_DIR$/.godot/editor/project_metadata.cfg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.godot/editor/recent_dirs" beforeDir="false" afterPath="$PROJECT_DIR$/.godot/editor/recent_dirs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.godot/editor/slime.tscn-editstate-247b4367e168830bf70cbd48b8d0aee8.cfg" beforeDir="false" afterPath="$PROJECT_DIR$/.godot/editor/slime.tscn-editstate-247b4367e168830bf70cbd48b8d0aee8.cfg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.godot/mono/metadata/ide_messaging_meta.txt" beforeDir="false" afterPath="$PROJECT_DIR$/.godot/mono/metadata/ide_messaging_meta.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.godot/mono/temp/bin/Debug/ProyectoPSP.dll" beforeDir="false" afterPath="$PROJECT_DIR$/.godot/mono/temp/bin/Debug/ProyectoPSP.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.godot/mono/temp/bin/Debug/ProyectoPSP.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/.godot/mono/temp/bin/Debug/ProyectoPSP.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.godot/mono/temp/obj/Debug/ProyectoPSP.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/.godot/mono/temp/obj/Debug/ProyectoPSP.AssemblyInfo.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.godot/mono/temp/obj/Debug/ProyectoPSP.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/.godot/mono/temp/obj/Debug/ProyectoPSP.AssemblyInfoInputs.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.godot/mono/temp/obj/Debug/ProyectoPSP.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/.godot/mono/temp/obj/Debug/ProyectoPSP.csproj.CoreCompileInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.godot/mono/temp/obj/Debug/ProyectoPSP.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/.godot/mono/temp/obj/Debug/ProyectoPSP.csproj.FileListAbsolute.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.godot/mono/temp/obj/Debug/ProyectoPSP.dll" beforeDir="false" afterPath="$PROJECT_DIR$/.godot/mono/temp/obj/Debug/ProyectoPSP.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.godot/mono/temp/obj/Debug/ProyectoPSP.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/.godot/mono/temp/obj/Debug/ProyectoPSP.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.godot/mono/temp/obj/Debug/ProyectoPSP.sourcelink.json" beforeDir="false" afterPath="$PROJECT_DIR$/.godot/mono/temp/obj/Debug/ProyectoPSP.sourcelink.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.godot/mono/temp/obj/Debug/ref/ProyectoPSP.dll" beforeDir="false" afterPath="$PROJECT_DIR$/.godot/mono/temp/obj/Debug/ref/ProyectoPSP.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.godot/mono/temp/obj/Debug/refint/ProyectoPSP.dll" beforeDir="false" afterPath="$PROJECT_DIR$/.godot/mono/temp/obj/Debug/refint/ProyectoPSP.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.godot/uid_cache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.godot/uid_cache.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.ProyectoPSP/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ProyectoPSP/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scenes/castle.tscn" beforeDir="false" afterPath="$PROJECT_DIR$/Scenes/castle.tscn" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scenes/menu.tscn" beforeDir="false" afterPath="$PROJECT_DIR$/Scenes/menu.tscn" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scenes/parte_2.tscn" beforeDir="false" afterPath="$PROJECT_DIR$/Scenes/parte_2.tscn" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Scenes/castle.tscn" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Scenes/coin.tscn" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Scenes/dagger.tscn" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Scenes/death_screen.tscn" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Scenes/killzone.tscn" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Scenes/menu.tscn" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Scenes/parte_2.tscn" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Scenes/platform.tscn" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Scenes/player.tscn" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Scenes/principal.tscn" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Scenes/slime.tscn" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Scripts/Castle.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Scripts/Castle.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Scripts/Coin.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Scripts/Coin.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Scripts/DeathScreen.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Scripts/DeathScreen.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Scripts/GameManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Scripts/GameManager.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Scripts/Killzone.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Scripts/Killzone.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Scripts/Menu.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Scripts/Menu.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Scripts/Player.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Scripts/Player.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TileSets/Castle.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TileSets/Castle.png.import" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TileSets/dagger.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TileSets/dagger.png.import" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project.godot" beforeDir="false" afterPath="$PROJECT_DIR$/project.godot" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -81,23 +101,23 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    ".NET Executable.Editor.executor": "Run",
-    ".NET Executable.Player.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
-    "ignore.virus.scanning.warn.message": "true",
-    "last_opened_file_path": "C:/Users/UsuarioT/Documents/proyectopsp",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "project.propVCSSupport.Confirmation",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;.NET Executable.Editor.executor&quot;: &quot;Run&quot;,
+    &quot;.NET Executable.Player.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/UsuarioT/Documents/proyectopsp&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;project.propVCSSupport.Confirmation&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected=".NET Executable.Player">
     <configuration name="Player GDScript" type="GDSCRIPT_DEBUG_RUN_CONFIGURATION" factoryName="GdScriptRunFactory" show_console_on_std_err="false" show_console_on_std_out="false" port="6006">
       <option name="address" value="127.0.0.1" />
@@ -166,7 +186,10 @@
       <workItem from="1733248361837" duration="7983000" />
       <workItem from="1733322823880" duration="751000" />
       <workItem from="1733323599683" duration="198000" />
-      <workItem from="1733323827603" duration="4579000" />
+      <workItem from="1733323827603" duration="4912000" />
+      <workItem from="1733330699162" duration="75000" />
+      <workItem from="1733330786633" duration="8446000" />
+      <workItem from="1733340651631" duration="2317000" />
     </task>
     <task id="LOCAL-00001" summary=".">
       <option name="closed" value="true" />
@@ -240,7 +263,15 @@
       <option name="project" value="LOCAL" />
       <updated>1733324295581</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Añadido el &quot;mundo 2&quot; asi como una pantall de muerte">
+      <option name="closed" value="true" />
+      <created>1733330338741</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1733330338741</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -268,6 +299,7 @@
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
     <MESSAGE value="agregado la escena del castillo que se encarga de pasar de pantalla, un menu funcional (aunque sin nada mas que los botones, nada para la vista), añadido la muerte del slime mediante las dagas." />
     <MESSAGE value="." />
-    <option name="LAST_COMMIT_MESSAGE" value="." />
+    <MESSAGE value="Añadido el &quot;mundo 2&quot; asi como una pantall de muerte" />
+    <option name="LAST_COMMIT_MESSAGE" value="Añadido el &quot;mundo 2&quot; asi como una pantall de muerte" />
   </component>
 </project>

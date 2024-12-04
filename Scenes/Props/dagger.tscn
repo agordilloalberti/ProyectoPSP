@@ -1,7 +1,7 @@
 [gd_scene load_steps=4 format=3 uid="uid://b1b6n0tb0jn1u"]
 
 [ext_resource type="Script" path="res://Scripts/Dagger.cs" id="1_68r2s"]
-[ext_resource type="Texture2D" uid="uid://qxlo1c1vsgmx" path="res://TileSets/dagger.png" id="2_ydlff"]
+[ext_resource type="Texture2D" uid="uid://qxlo1c1vsgmx" path="res://ExtraSprites/dagger.png" id="2_ydlff"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_j2ppb"]
 size = Vector2(12, 4)
@@ -10,6 +10,7 @@ size = Vector2(12, 4)
 collision_layer = 2
 collision_mask = 5
 script = ExtResource("1_68r2s")
+time = 5.0
 maxDistance = 200.0
 
 [node name="Timer" type="Timer" parent="."]

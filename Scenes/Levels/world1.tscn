@@ -1,16 +1,16 @@
 [gd_scene load_steps=15 format=3 uid="uid://bl52bafhm2k5f"]
 
-[ext_resource type="Script" path="res://Scripts/GameManager.cs" id="1_n5us2"]
-[ext_resource type="Texture2D" uid="uid://fh23l053j7s5" path="res://TileSets/world_tileset.png" id="1_v2aan"]
-[ext_resource type="PackedScene" uid="uid://bhoonv53uol3m" path="res://Scenes/player.tscn" id="1_v2vd7"]
-[ext_resource type="PackedScene" uid="uid://bw2rk5gqytd4t" path="res://Scenes/platform.tscn" id="3_7el5b"]
-[ext_resource type="PackedScene" uid="uid://do3gfhp2jjker" path="res://Scenes/killzone.tscn" id="4_3lnrs"]
-[ext_resource type="PackedScene" uid="uid://dqr0r2viekasq" path="res://Scenes/coin.tscn" id="4_xgsan"]
-[ext_resource type="PackedScene" uid="uid://vfudmfhkugvp" path="res://Scenes/slime.tscn" id="6_8cqc2"]
-[ext_resource type="PackedScene" uid="uid://dc1oqowdaewmy" path="res://Scenes/castle.tscn" id="8_q6hml"]
+[ext_resource type="Script" path="res://Scripts/GameManager.cs" id="1_cvus6"]
+[ext_resource type="Texture2D" uid="uid://fh23l053j7s5" path="res://TileSets/world_tileset.png" id="2_pknec"]
+[ext_resource type="PackedScene" uid="uid://bhoonv53uol3m" path="res://Scenes/Entities/player.tscn" id="3_tmqkc"]
+[ext_resource type="PackedScene" uid="uid://do3gfhp2jjker" path="res://Scenes/Props/killzone.tscn" id="4_bsejd"]
+[ext_resource type="PackedScene" uid="uid://dqr0r2viekasq" path="res://Scenes/Props/coin.tscn" id="5_xq8lq"]
+[ext_resource type="PackedScene" uid="uid://bw2rk5gqytd4t" path="res://Scenes/Props/platform.tscn" id="6_r5413"]
+[ext_resource type="PackedScene" uid="uid://vfudmfhkugvp" path="res://Scenes/Entities/slime.tscn" id="7_k1xxt"]
+[ext_resource type="PackedScene" uid="uid://dc1oqowdaewmy" path="res://Scenes/Props/castle.tscn" id="8_0u2yc"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_ol5gi"]
-texture = ExtResource("1_v2aan")
+texture = ExtResource("2_pknec")
 0:0/0 = 0
 0:0/0/physics_layer_0/polygon_0/points = PackedVector2Array(-8, -8, 8, -8, 8, 8, -8, 8)
 1:0/0 = 0
@@ -220,7 +220,17 @@ _data = {
 [node name="Game" type="Node2D"]
 
 [node name="GameManager" type="Node" parent="."]
-script = ExtResource("1_n5us2")
+script = ExtResource("1_cvus6")
+
+[node name="Labels" type="Node" parent="GameManager"]
+
+[node name="Label" type="Label" parent="GameManager/Labels"]
+offset_left = -204.0
+offset_top = -118.0
+offset_right = -117.0
+offset_bottom = -41.0
+text = "use WASD 
+to move"
 
 [node name="TileMap" type="TileMap" parent="."]
 tile_set = SubResource("TileSet_sbsyp")
@@ -230,16 +240,17 @@ layer_0/tile_data = PackedInt32Array(65511, 1, 14, 65512, 1, 14, 65513, 1, 14, 6
 layer_1/name = "Mid"
 layer_1/tile_data = PackedInt32Array(-131079, 1, 0, -9, 1, 0, -8, 1, 0, 65528, 1, 1, 65529, 1, 1, 65530, 1, 1, -6, 65537, 0, -65543, 1, 1, -7, 1, 1, 65527, 1, 1, -5, 393217, 0, 65531, 393217, 1, -4, 458753, 1, 65532, 393217, 1, -3, 393217, 0, 65533, 524289, 0, -65535, 393217, 0, 1, 393217, 1, -65534, 393217, 0, 2, 393217, 1, -65532, 458753, 1, 4, 393217, 1, -65531, 393217, 0, 5, 524289, 1, 131067, 393217, 1, 131068, 393217, 1, 131069, 393217, 1, -2, 589825, 0, -1, 655361, 0, -65536, 720897, 0, 65537, 393217, 1, 65538, 393217, 1, 65540, 393217, 1, 65541, 393217, 1, -393220, 1, 0, -327684, 1, 1, -458755, 1, 0, -393219, 1, 1, -327683, 65537, 1, -458754, 1, 0, -393218, 1, 1, -327682, 1, 1, -327681, 1, 0, -262145, 1, 1, -393216, 1, 0, -327680, 1, 1, -393215, 589825, 0, -393214, 720897, 0, -393213, 1, 0, -327677, 1, 1, -458748, 1, 0, -393212, 1, 1, -327676, 65537, 0, -458747, 1, 0, -393211, 1, 1, -327675, 1, 1, -393210, 1, 0, -327674, 1, 1, -327673, 262145, 0, -262137, 1, 1, -327672, 262145, 0, -262136, 1, 1, -327671, 262145, 0, -262135, 1, 1, -196599, 1, 1, -262134, 65537, 0, -196598, 1, 1, -131062, 1, 1, -196597, 65537, 0, -131061, 1, 1, -131078, 1, 0, -65542, 1, 1, -65544, 65537, 0, 131064, 65537, 0, 131063, 1, 1, 131065, 1, 1, 131066, 1, 1, -196596, 262145, 0, -196595, 262145, 0, -131060, 262145, 1, -65524, 262145, 1, 12, 262145, 1, 65548, 262145, 1, -131059, 262145, 1, -65523, 262145, 1, 65549, 262145, 1, 13, 327681, 1, -458752, 1, 5, -589824, 1, 4, -524288, 1, 4, -655360, 1, 3, -65545, 65537, 6, -131071, 1, 8, -393208, 524289, 6, -262133, 327681, 8, -524279, 327681, 3, -458743, 327681, 4, -393207, 327681, 5, -196584, 1, 0, -131048, 65537, 0, -65512, 1, 1, 24, 1, 1, 65560, 1, 1, -196583, 1, 0, -131047, 1, 1, -65511, 1, 1, 25, 1, 1, 65561, 1, 1, -65510, 1, 1, 26, 65537, 1, 65562, 1, 1, -65509, 1, 1, 27, 1, 1, 65563, 1, 1, 28, 1, 1, 65564, 1, 1, 29, 1, 1, 65565, 1, 1, 30, 1, 1, 65566, 1, 1, 31, 1, 1, 65567, 1, 1, 32, 1, 1, 65568, 1, 1, 33, 1, 1, 65569, 1, 1, 34, 1, 1, 65570, 1, 1, 35, 1, 1, 65571, 1, 1, -65508, 65537, 1, -65507, 1, 1, -196580, 196609, 7, -131044, 196609, 8, -327652, 131073, 4, -393185, 131073, 4, -131041, 196609, 8, -262113, 196609, 7, -196577, 196609, 7, -131043, 65537, 4, -65506, 1, 1, -65505, 1, 1, -65504, 1, 1, -65503, 1, 1, -65502, 1, 1, -65501, 1, 1, -131039, 65537, 1, -196574, 1, 0, -196573, 1, 0, -131038, 1, 1, -131037, 1, 1, -393179, 65537, 5, -327643, 131073, 0, -458714, 131073, 0, -458713, 131073, 0, -458712, 589825, 1, -458711, 655361, 1, -458710, 655361, 1, -458709, 655361, 1, -458708, 720897, 1, -458707, 131073, 0, -458706, 131073, 0, -393171, 131073, 1, -393170, 131073, 1, -393177, 131073, 1, -327641, 131073, 1, -327642, 131073, 1, -262106, 131073, 1, -262107, 196609, 0, -393178, 196609, 1, -655315, 393217, 3, -589779, 393217, 4, -524243, 393217, 5, -655324, 262145, 0, -589788, 262145, 1, -589790, 262145, 1, -655326, 262145, 1, -589789, 327681, 1, -655325, 262145, 0, -851933, 327681, 3, -786397, 327681, 4, -720861, 327681, 5, -720862, 327681, 0, -786399, 262145, 0, -786400, 262145, 0, -786401, 262145, 0, -720864, 262145, 1, -720863, 262145, 1, -655328, 262145, 1, -655327, 262145, 1, -786402, 262145, 0, -720866, 327681, 1, -720865, 262145, 1, -786403, 262145, 0, -786404, 262145, 0, -786405, 262145, 0, -786406, 262145, 0, -720867, 262145, 1, -655331, 262145, 1, -655330, 262145, 1, -655329, 262145, 1, -655332, 262145, 1, -655333, 262145, 1, -655334, 262145, 1, -720869, 262145, 1, -720871, 262145, 1, -655335, 262145, 1, -786407, 262145, 0, -720870, 327681, 0, -720868, 327681, 1, -786408, 262145, 0, -720872, 262145, 1, -655336, 262145, 1)
 
-[node name="Player" parent="." instance=ExtResource("1_v2vd7")]
+[node name="Player" parent="." instance=ExtResource("3_tmqkc")]
 position = Vector2(-105, -60)
 
-[node name="Camera2D" type="Camera2D" parent="Player"]
+[node name="Camera2D" type="Camera2D" parent="."]
+position = Vector2(-105, -60)
 zoom = Vector2(4, 4)
 limit_bottom = 120
 limit_smoothed = true
 position_smoothing_enabled = true
 
-[node name="Killzone" parent="." instance=ExtResource("4_3lnrs")]
+[node name="Killzone" parent="." instance=ExtResource("4_bsejd")]
 position = Vector2(0, -9)
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Killzone"]
@@ -247,51 +258,51 @@ shape = SubResource("WorldBoundaryShape2D_dks1q")
 
 [node name="Coins" type="Node" parent="."]
 
-[node name="Coin" parent="Coins" instance=ExtResource("4_xgsan")]
+[node name="Coin" parent="Coins" instance=ExtResource("5_xq8lq")]
 position = Vector2(-58, -38)
 
-[node name="Coin2" parent="Coins" instance=ExtResource("4_xgsan")]
+[node name="Coin2" parent="Coins" instance=ExtResource("5_xq8lq")]
 position = Vector2(70, -28)
 
-[node name="Coin3" parent="Coins" instance=ExtResource("4_xgsan")]
+[node name="Coin3" parent="Coins" instance=ExtResource("5_xq8lq")]
 position = Vector2(88, -28)
 
-[node name="Coin4" parent="Coins" instance=ExtResource("4_xgsan")]
+[node name="Coin4" parent="Coins" instance=ExtResource("5_xq8lq")]
 position = Vector2(-24, -144)
 
-[node name="Coin5" parent="Coins" instance=ExtResource("4_xgsan")]
+[node name="Coin5" parent="Coins" instance=ExtResource("5_xq8lq")]
 position = Vector2(391, -64)
 
-[node name="Coin11" parent="Coins" instance=ExtResource("4_xgsan")]
+[node name="Coin11" parent="Coins" instance=ExtResource("5_xq8lq")]
 position = Vector2(656, -124)
 
-[node name="Coin12" parent="Coins" instance=ExtResource("4_xgsan")]
+[node name="Coin12" parent="Coins" instance=ExtResource("5_xq8lq")]
 position = Vector2(678, -124)
 
-[node name="Coin13" parent="Coins" instance=ExtResource("4_xgsan")]
+[node name="Coin13" parent="Coins" instance=ExtResource("5_xq8lq")]
 position = Vector2(583, -170)
 
-[node name="Coin6" parent="Coins" instance=ExtResource("4_xgsan")]
+[node name="Coin6" parent="Coins" instance=ExtResource("5_xq8lq")]
 position = Vector2(261, -80)
 
-[node name="Coin7" parent="Coins" instance=ExtResource("4_xgsan")]
+[node name="Coin7" parent="Coins" instance=ExtResource("5_xq8lq")]
 position = Vector2(279, -96)
 
-[node name="Coin8" parent="Coins" instance=ExtResource("4_xgsan")]
+[node name="Coin8" parent="Coins" instance=ExtResource("5_xq8lq")]
 position = Vector2(309, -96)
 
-[node name="Coin9" parent="Coins" instance=ExtResource("4_xgsan")]
+[node name="Coin9" parent="Coins" instance=ExtResource("5_xq8lq")]
 position = Vector2(328, -78)
 
-[node name="Coin10" parent="Coins" instance=ExtResource("4_xgsan")]
+[node name="Coin10" parent="Coins" instance=ExtResource("5_xq8lq")]
 position = Vector2(294, -96)
 
 [node name="Platforms" type="Node" parent="."]
 
-[node name="Platform" parent="Platforms" instance=ExtResource("3_7el5b")]
+[node name="Platform" parent="Platforms" instance=ExtResource("6_r5413")]
 position = Vector2(-86, -74)
 
-[node name="Platform2" parent="Platforms" instance=ExtResource("3_7el5b")]
+[node name="Platform2" parent="Platforms" instance=ExtResource("6_r5413")]
 position = Vector2(264, -43)
 
 [node name="AnimationPlayer" type="AnimationPlayer" parent="Platforms/Platform2"]
@@ -303,24 +314,15 @@ autoplay = "move"
 
 [node name="Enemies" type="Node" parent="."]
 
-[node name="Slime2" parent="Enemies" instance=ExtResource("6_8cqc2")]
+[node name="Slime2" parent="Enemies" instance=ExtResource("7_k1xxt")]
 position = Vector2(-73, -21)
 
-[node name="Slime" parent="Enemies" instance=ExtResource("6_8cqc2")]
+[node name="Slime" parent="Enemies" instance=ExtResource("7_k1xxt")]
 position = Vector2(424, -24)
 
-[node name="Slime3" parent="Enemies" instance=ExtResource("6_8cqc2")]
+[node name="Slime3" parent="Enemies" instance=ExtResource("7_k1xxt")]
 position = Vector2(616, -118)
 
-[node name="Labels" type="Node" parent="."]
-
-[node name="Label" type="Label" parent="Labels"]
-offset_left = -204.0
-offset_top = -118.0
-offset_right = -117.0
-offset_bottom = -41.0
-text = "use WASD 
-to move"
-
-[node name="Castle" parent="." instance=ExtResource("8_q6hml")]
+[node name="Castle" parent="." instance=ExtResource("8_0u2yc")]
 position = Vector2(458, -285)
+nextWorldName = "world2"
