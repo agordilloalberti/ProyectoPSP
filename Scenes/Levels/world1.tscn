@@ -232,6 +232,14 @@ offset_bottom = -41.0
 text = "use WASD 
 to move"
 
+[node name="Label2" type="Label" parent="GameManager/Labels"]
+offset_left = 171.0
+offset_top = -143.0
+offset_right = 261.0
+offset_bottom = -94.0
+text = "Press space
+to Shoot"
+
 [node name="TileMap" type="TileMap" parent="."]
 tile_set = SubResource("TileSet_sbsyp")
 format = 2
@@ -322,6 +330,18 @@ position = Vector2(424, -24)
 
 [node name="Slime3" parent="Enemies" instance=ExtResource("7_k1xxt")]
 position = Vector2(616, -118)
+
+[node name="Slime4" parent="Enemies" instance=ExtResource("7_k1xxt")]
+position = Vector2(266, -56)
+
+[node name="Slime5" parent="Enemies" instance=ExtResource("7_k1xxt")]
+position = Vector2(19, -102)
+
+[node name="Slime6" parent="Enemies" instance=ExtResource("7_k1xxt")]
+position = Vector2(130, -85)
+
+[node name="Slime7" parent="Enemies" instance=ExtResource("7_k1xxt")]
+position = Vector2(480, -23)
 
 [node name="Castle" parent="." instance=ExtResource("8_0u2yc")]
 position = Vector2(458, -285)

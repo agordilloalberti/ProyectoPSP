@@ -10,6 +10,7 @@ size = Vector2(12, 4)
 collision_layer = 2
 collision_mask = 5
 script = ExtResource("1_68r2s")
+speed = 250.0
 time = 5.0
 maxDistance = 200.0
 

@@ -23,7 +23,7 @@ public partial class Killzone : Area2D
 
     private void _on_timer_timeout()
     {
-        GetTree().ChangeSceneToFile("res://Scenes/Ui/death_screen.tscn");
+        GetTree().ChangeSceneToFile("res://Scenes/UI/death_screen.tscn");
         GameManager.reset();
         Engine.TimeScale = 1;
         player.dead = false;

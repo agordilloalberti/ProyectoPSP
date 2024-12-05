@@ -9,9 +9,12 @@ public partial class Player : CharacterBody2D
 	private float JumpVelocity = -300.0f;
 	[Export]
 	private bool NoClip = false;
-	[Export] 
+	[Export]
 	private float throwCooldown = 1f;
+	[Export]
+	private float ladderVelocity = -100.0f;
 	
+	public bool goingDown = false;
 	private bool throwing = false;
 	private Timer throwTimer;
 	private bool scriptedScene = false;
@@ -35,32 +38,29 @@ public partial class Player : CharacterBody2D
 	public override void _PhysicsProcess(double delta)
 	{
 		Vector2 velocity = Velocity;
-
-		if (!scriptedScene)
+		
+		if (!dead)
 		{
-			if (!dead)
+			camera.GlobalPosition = GlobalPosition;
+			
+			shoot(LR);
+			
+			velocity = Jump(velocity);
+
+			int direction = Move(velocity);
+
+			velocity.X = direction * Speed;
+			if (!isOnLadder)
 			{
-				shoot(LR);
-				camera.GlobalPosition = this.GlobalPosition;
-				velocity = Jump(velocity);
-
-				int direction = Move(velocity);
-
-				velocity.X = direction * Speed;
-
-				velocity = animation(velocity, delta);
-
+				velocity += GetGravity() * (float)delta;
 			}
-			else
-			{
-				velocity = death(velocity, delta);
-			}
+
+			animation(velocity);
+
 		}
 		else
 		{
-			velocity = new Vector2();
-			velocity = animation(velocity, delta);
-			velocity += GetGravity() * (float)delta;
+			velocity = death(velocity, delta);
 		}
 		Velocity = velocity;
 		MoveAndSlide();
@@ -85,12 +85,11 @@ public partial class Player : CharacterBody2D
 		
 	}
 
-	private Vector2 animation(Vector2 velocity,Double delta)
+	private void animation(Vector2 velocity)
 	{
 		if (!IsOnFloor() && !isOnLadder)
 		{
 			player.Play("roll");
-			velocity += GetGravity() * (float)delta;
 		}
 			
 		if (velocity.X < 0)
@@ -113,14 +112,12 @@ public partial class Player : CharacterBody2D
 		}
 		else
 		{
-			if (IsOnFloor())
+			if (IsOnFloor() || isOnLadder)
 			{
 				player.Play("idle");	
 			}
 			player.FlipH = LR;
 		}
-
-		return velocity;
 	}
 
 	private int Move(Vector2 velocity)
@@ -153,9 +150,19 @@ public partial class Player : CharacterBody2D
 		}
 		else
 		{
-			if (Input.IsActionPressed("jump") || Input.IsActionPressed("down"))
+			if (Input.IsActionPressed("jump"))
 			{
-				
+				goingDown = false;
+				velocity.Y = ladderVelocity;
+			}
+			else if (Input.IsActionPressed("down"))
+			{
+				goingDown = true;
+				velocity.Y = -ladderVelocity;
+			}
+			else
+			{
+				velocity.Y = 0;
 			}
 		}
 
