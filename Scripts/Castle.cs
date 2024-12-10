@@ -14,9 +14,12 @@ public partial class Castle : Area2D
     {
         castle = GetNode<AnimatedSprite2D>("AnimatedSprite2D");
         castle.Stop();
-        if (nextWorldName != "closed")
+        if (nextWorldName != "closed" && nextWorldName != "win")
         {
             NextWorld = "res://Scenes/Levels/" + nextWorldName + ".tscn";
+        }else if (nextWorldName == "win")
+        {
+            NextWorld = "res://Scenes/UI/win_screen.tscn";
         }
         else
         {

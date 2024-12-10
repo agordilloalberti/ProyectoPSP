@@ -1,6 +1,11 @@
-[gd_scene load_steps=2 format=3 uid="uid://v6yhlt1l4e4w"]
+[gd_scene load_steps=4 format=3 uid="uid://v6yhlt1l4e4w"]
 
 [ext_resource type="Script" path="res://Scripts/Menu.cs" id="1_1kmjy"]
+[ext_resource type="Texture2D" uid="uid://c80lohkegtanc" path="res://ExtraSprites/Menu.png" id="2_rfl0s"]
+
+[sub_resource type="LabelSettings" id="LabelSettings_pp7sj"]
+font_size = 50
+font_color = Color(0, 0, 0, 1)
 
 [node name="Menu" type="Control"]
 layout_mode = 3
@@ -24,31 +29,51 @@ grow_horizontal = 2
 grow_vertical = 2
 color = Color(0.662657, 0.947348, 0.996935, 1)
 
-[node name="VBoxContainer" type="VBoxContainer" parent="."]
+[node name="HBoxContainer" type="HBoxContainer" parent="."]
 layout_mode = 1
-anchors_preset = 8
-anchor_left = 0.5
-anchor_top = 0.5
-anchor_right = 0.5
-anchor_bottom = 0.5
-offset_left = -28.5
-offset_top = -38.5
-offset_right = 28.5
-offset_bottom = 38.5
+anchors_preset = -1
+anchor_left = 0.467014
+anchor_top = 0.615741
+anchor_right = 0.570313
+anchor_bottom = 0.66358
+offset_top = 3.05176e-05
 grow_horizontal = 2
-grow_vertical = 2
-theme_override_constants/separation = 15
+grow_vertical = 0
+theme_override_constants/separation = 20
+metadata/_edit_use_anchors_ = true
 
-[node name="Button" type="Button" parent="VBoxContainer"]
+[node name="Button" type="Button" parent="HBoxContainer"]
 layout_mode = 2
-size_flags_horizontal = 4
-size_flags_vertical = 4
+size_flags_horizontal = 10
+size_flags_vertical = 0
 text = "Entrar"
 icon_alignment = 1
 
-[node name="Button2" type="Button" parent="VBoxContainer"]
+[node name="Button2" type="Button" parent="HBoxContainer"]
 layout_mode = 2
+size_flags_horizontal = 10
+size_flags_vertical = 4
 text = "Salir"
 
-[connection signal="pressed" from="VBoxContainer/Button" to="." method="_on_start_pressed"]
-[connection signal="pressed" from="VBoxContainer/Button2" to="." method="_on_exit_pressed"]
+[node name="Menu" type="Sprite2D" parent="."]
+position = Vector2(598, 260)
+scale = Vector2(10.3906, 9.02273)
+texture = ExtResource("2_rfl0s")
+
+[node name="Title" type="Label" parent="."]
+layout_mode = 1
+anchors_preset = 5
+anchor_left = 0.5
+anchor_right = 0.5
+offset_left = -316.0
+offset_right = 316.0
+offset_bottom = 141.0
+grow_horizontal = 2
+text = "The adventures of  Valsir
+The royal knight aprentice"
+label_settings = SubResource("LabelSettings_pp7sj")
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[connection signal="pressed" from="HBoxContainer/Button" to="." method="_on_start_pressed"]
+[connection signal="pressed" from="HBoxContainer/Button2" to="." method="_on_exit_pressed"]

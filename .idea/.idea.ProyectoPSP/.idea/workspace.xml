@@ -5,21 +5,24 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a72b817c-0947-4f6f-8cb3-aa0143ff6e2c" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.godot/editor/Ladder.tscn-editstate-063916148ac44d9398c530806fb0d83b.cfg" beforeDir="false" afterPath="$PROJECT_DIR$/.godot/editor/Ladder.tscn-editstate-063916148ac44d9398c530806fb0d83b.cfg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.godot/editor/create_recent.Node" beforeDir="false" afterPath="$PROJECT_DIR$/.godot/editor/create_recent.Node" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.godot/editor/dagger.tscn-editstate-1c0b51926d76a417fedec778d30ec555.cfg" beforeDir="false" afterPath="$PROJECT_DIR$/.godot/editor/dagger.tscn-editstate-1c0b51926d76a417fedec778d30ec555.cfg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.godot/editor/death_screen.tscn-editstate-647c255a2d7618ccac2382e1b044185b.cfg" beforeDir="false" afterPath="$PROJECT_DIR$/.godot/editor/death_screen.tscn-editstate-647c255a2d7618ccac2382e1b044185b.cfg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.godot/editor/editor_layout.cfg" beforeDir="false" afterPath="$PROJECT_DIR$/.godot/editor/editor_layout.cfg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.godot/editor/filesystem_cache8" beforeDir="false" afterPath="$PROJECT_DIR$/.godot/editor/filesystem_cache8" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.godot/editor/filesystem_update4" beforeDir="false" afterPath="$PROJECT_DIR$/.godot/editor/filesystem_update4" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.godot/editor/ladder.tscn-editstate-dbd15f499b589c82230b4dca650d91cc.cfg" beforeDir="false" afterPath="$PROJECT_DIR$/.godot/editor/ladder.tscn-editstate-dbd15f499b589c82230b4dca650d91cc.cfg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.godot/editor/ladder.tscn-folding-dbd15f499b589c82230b4dca650d91cc.cfg" beforeDir="false" afterPath="$PROJECT_DIR$/.godot/editor/ladder.tscn-folding-dbd15f499b589c82230b4dca650d91cc.cfg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.godot/editor/menu.tscn-editstate-38f20c91cb9b57c286c989a306da7841.cfg" beforeDir="false" afterPath="$PROJECT_DIR$/.godot/editor/menu.tscn-editstate-38f20c91cb9b57c286c989a306da7841.cfg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.godot/editor/menu.tscn-folding-38f20c91cb9b57c286c989a306da7841.cfg" beforeDir="false" afterPath="$PROJECT_DIR$/.godot/editor/menu.tscn-folding-38f20c91cb9b57c286c989a306da7841.cfg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.godot/editor/player.tscn-editstate-451bebc45433b6ac2e7ea82126ce8736.cfg" beforeDir="false" afterPath="$PROJECT_DIR$/.godot/editor/player.tscn-editstate-451bebc45433b6ac2e7ea82126ce8736.cfg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.godot/editor/player.tscn-folding-451bebc45433b6ac2e7ea82126ce8736.cfg" beforeDir="false" afterPath="$PROJECT_DIR$/.godot/editor/player.tscn-folding-451bebc45433b6ac2e7ea82126ce8736.cfg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.godot/editor/project_metadata.cfg" beforeDir="false" afterPath="$PROJECT_DIR$/.godot/editor/project_metadata.cfg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.godot/editor/recent_dirs" beforeDir="false" afterPath="$PROJECT_DIR$/.godot/editor/recent_dirs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.godot/editor/world1.tscn-editstate-e63933e26024554c6dccf6f7bc85638d.cfg" beforeDir="false" afterPath="$PROJECT_DIR$/.godot/editor/world1.tscn-editstate-e63933e26024554c6dccf6f7bc85638d.cfg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.godot/editor/world1.tscn-folding-e63933e26024554c6dccf6f7bc85638d.cfg" beforeDir="false" afterPath="$PROJECT_DIR$/.godot/editor/world1.tscn-folding-e63933e26024554c6dccf6f7bc85638d.cfg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.godot/editor/world2.tscn-editstate-5324816ce9f57037862b1f1ef4f56db3.cfg" beforeDir="false" afterPath="$PROJECT_DIR$/.godot/editor/world2.tscn-editstate-5324816ce9f57037862b1f1ef4f56db3.cfg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.godot/editor/world2.tscn-folding-5324816ce9f57037862b1f1ef4f56db3.cfg" beforeDir="false" afterPath="$PROJECT_DIR$/.godot/editor/world2.tscn-folding-5324816ce9f57037862b1f1ef4f56db3.cfg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.godot/imported/Menu.png-fc1527f07d4698e9045740a15009d000.ctex" beforeDir="false" afterPath="$PROJECT_DIR$/.godot/imported/Menu.png-fc1527f07d4698e9045740a15009d000.ctex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.godot/imported/Menu.png-fc1527f07d4698e9045740a15009d000.md5" beforeDir="false" afterPath="$PROJECT_DIR$/.godot/imported/Menu.png-fc1527f07d4698e9045740a15009d000.md5" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.godot/mono/metadata/ide_messaging_meta.txt" beforeDir="false" afterPath="$PROJECT_DIR$/.godot/mono/metadata/ide_messaging_meta.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.godot/mono/temp/bin/Debug/ProyectoPSP.dll" beforeDir="false" afterPath="$PROJECT_DIR$/.godot/mono/temp/bin/Debug/ProyectoPSP.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.godot/mono/temp/bin/Debug/ProyectoPSP.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/.godot/mono/temp/bin/Debug/ProyectoPSP.pdb" afterDir="false" />
@@ -32,14 +35,13 @@
       <change beforePath="$PROJECT_DIR$/.godot/mono/temp/obj/Debug/refint/ProyectoPSP.dll" beforeDir="false" afterPath="$PROJECT_DIR$/.godot/mono/temp/obj/Debug/refint/ProyectoPSP.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.godot/uid_cache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.godot/uid_cache.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.ProyectoPSP/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ProyectoPSP/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ExtraSprites/Menu.png" beforeDir="false" afterPath="$PROJECT_DIR$/ExtraSprites/Menu.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Scenes/Entities/player.tscn" beforeDir="false" afterPath="$PROJECT_DIR$/Scenes/Entities/player.tscn" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Scenes/Levels/world1.tscn" beforeDir="false" afterPath="$PROJECT_DIR$/Scenes/Levels/world1.tscn" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Scenes/Levels/world2.tscn" beforeDir="false" afterPath="$PROJECT_DIR$/Scenes/Levels/world2.tscn" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scenes/Props/dagger.tscn" beforeDir="false" afterPath="$PROJECT_DIR$/Scenes/Props/dagger.tscn" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scenes/Props/ladder.tscn" beforeDir="false" afterPath="$PROJECT_DIR$/Scenes/Props/ladder.tscn" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scripts/Killzone.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Scripts/Killzone.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Scenes/UI/menu.tscn" beforeDir="false" afterPath="$PROJECT_DIR$/Scenes/UI/menu.tscn" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Scripts/Castle.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Scripts/Castle.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Scripts/Player.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Scripts/Player.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scripts/ladder.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Scripts/Ladder.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -173,7 +175,9 @@
       <workItem from="1733330786633" duration="8446000" />
       <workItem from="1733340651631" duration="2998000" />
       <workItem from="1733411627005" duration="26000" />
-      <workItem from="1733411746616" duration="12293000" />
+      <workItem from="1733411746616" duration="12713000" />
+      <workItem from="1733853783811" duration="20000" />
+      <workItem from="1733853811211" duration="3553000" />
     </task>
     <task id="LOCAL-00001" summary=".">
       <option name="closed" value="true" />
@@ -263,7 +267,15 @@
       <option name="project" value="LOCAL" />
       <updated>1733343446444</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Conseguido el correcto funcionamiento de las escaleras.">
+      <option name="closed" value="true" />
+      <created>1733425262128</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1733425262128</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -293,6 +305,7 @@
     <MESSAGE value="." />
     <MESSAGE value="Añadido el &quot;mundo 2&quot; asi como una pantall de muerte" />
     <MESSAGE value="Arreglados bugs anteriores, añadido al mas de mundo asi como el objeto escalera que queda por teminar" />
-    <option name="LAST_COMMIT_MESSAGE" value="Arreglados bugs anteriores, añadido al mas de mundo asi como el objeto escalera que queda por teminar" />
+    <MESSAGE value="Conseguido el correcto funcionamiento de las escaleras." />
+    <option name="LAST_COMMIT_MESSAGE" value="Conseguido el correcto funcionamiento de las escaleras." />
   </component>
 </project>

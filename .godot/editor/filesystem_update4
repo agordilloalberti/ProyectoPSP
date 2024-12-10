@@ -1,10 +1,9 @@
+res://Scenes/Levels/world2.tscn
 res://Scenes/UI/menu.tscn
 res://Scenes/UI/death_screen.tscn
 res://Scenes/Levels/world1.tscn
-res://Scenes/Levels/world2.tscn
 res://Scenes/Entities/player.tscn
-res://Scenes/Props/ladder.tscn
-res://Scenes/Props/dagger.tscn
+res://Scenes/Props/Ladder.tscn
 res://Scripts/Coin.cs
 res://Scripts/Slime.cs
 res://Scripts/Killzone.cs
@@ -14,6 +13,9 @@ res://Scripts/Player.cs
 res://Scripts/Castle.cs
 res://Scripts/GameManager.cs
 res://Scripts/DeathScreen.cs
-res://Scripts/ladder.cs
 res://Scripts/Ladder.cs
-res://Scenes/Props/Ladder.tscn
+res://Scenes/UI/win_screen.tscn
+res://Scenes/Entities/slime_shooter.tscn
+res://Scenes/Entities/slime.tscn
+res://Scripts/SlimeShooter.cs
+res://Scripts/Statistics.cs

@@ -171,16 +171,14 @@ public partial class Player : CharacterBody2D
 
 	private void shoot(bool LR)
 	{
-		if (Input.IsActionJustPressed("shoot") && !throwing)
-		{
-			Dagger instDagger = (Dagger) dagger.Instantiate();
-			Vector2 offset = new Vector2(0, 5);
-			instDagger.Position = GlobalPosition+offset;
-			GetTree().Root.AddChild(instDagger);
-			instDagger.setDirection(LR);
-			throwing = true;
-			throwTimer.Start(throwCooldown);
-		}
+		if (!Input.IsActionJustPressed("shoot") || throwing) return;
+		Dagger instDagger = (Dagger) dagger.Instantiate();
+		Vector2 offset = new Vector2(0, 5);
+		instDagger.Position = GlobalPosition+offset;
+		GetTree().Root.AddChild(instDagger);
+		instDagger.setDirection(LR);
+		throwing = true;
+		throwTimer.Start(throwCooldown);
 	}
 
 	private void _on_timer_timeout()

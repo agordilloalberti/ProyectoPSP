@@ -1,0 +1,64 @@
+[gd_scene load_steps=3 format=3 uid="uid://dopip5b6sle8a"]
+
+[ext_resource type="Script" path="res://Scripts/Statistics.cs" id="1_ki2oj"]
+
+[sub_resource type="LabelSettings" id="LabelSettings_2scp1"]
+font_size = 50
+font_color = Color(0, 0, 0, 1)
+
+[node name="win_screen" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="ColorRect" type="ColorRect" parent="."]
+layout_mode = 0
+offset_right = 1220.0
+offset_bottom = 711.0
+color = Color(0.428198, 0.764817, 0.481154, 1)
+
+[node name="HBoxContainer" type="HBoxContainer" parent="."]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -165.0
+offset_top = -15.5
+offset_right = 165.0
+offset_bottom = 15.5
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_constants/separation = 20
+
+[node name="BackTitle" type="Button" parent="HBoxContainer"]
+layout_mode = 2
+size_flags_horizontal = 3
+text = "Go back to title"
+
+[node name="ExitGame" type="Button" parent="HBoxContainer"]
+layout_mode = 2
+size_flags_horizontal = 3
+text = "Exit Game"
+
+[node name="Statistics" type="Button" parent="HBoxContainer"]
+layout_mode = 2
+text = "See stats"
+script = ExtResource("1_ki2oj")
+
+[node name="Label" type="Label" parent="."]
+layout_mode = 0
+offset_left = 506.0
+offset_top = 144.0
+offset_right = 702.0
+offset_bottom = 243.0
+text = "U win :)"
+label_settings = SubResource("LabelSettings_2scp1")
+
+[connection signal="pressed" from="HBoxContainer/BackTitle" to="HBoxContainer/Statistics" method="_on_back_title_pressed"]
+[connection signal="pressed" from="HBoxContainer/ExitGame" to="HBoxContainer/Statistics" method="_on_exit_game_pressed"]
+[connection signal="pressed" from="HBoxContainer/Statistics" to="HBoxContainer/Statistics" method="_on_statistics_pressed"]

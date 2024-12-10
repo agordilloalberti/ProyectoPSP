@@ -3,6 +3,7 @@
 using Godot;
 using System;
 
+//TODO: Make an interface "ENEMY" that implements all common calls between them
 public partial class Slime : CharacterBody2D
 {
 	[Export]

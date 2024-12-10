@@ -243,8 +243,8 @@ animations = [{
 "speed": 10.0
 }]
 
-[sub_resource type="CircleShape2D" id="CircleShape2D_2s4df"]
-radius = 7.0
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_0dh7a"]
+size = Vector2(9, 13)
 
 [node name="Player" type="CharacterBody2D"]
 z_index = 5
@@ -259,8 +259,8 @@ animation = &"idle"
 autoplay = "idle"
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
-position = Vector2(0, 4)
-shape = SubResource("CircleShape2D_2s4df")
+position = Vector2(-0.5, 4.5)
+shape = SubResource("RectangleShape2D_0dh7a")
 
 [node name="Timer" type="Timer" parent="."]
 

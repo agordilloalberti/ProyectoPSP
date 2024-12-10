@@ -1,3 +1,9 @@
+CharacterBody2D
+Button
+ColorRect
+Label
+HBoxContainer
+VBoxContainer
 CollisionShape2D
 StaticBody2D
 Area2D
@@ -5,10 +11,5 @@ Timer
 Node
 Sprite2D
 AnimatedSprite2D
-Label
-HBoxContainer
-VBoxContainer
-Button
-ColorRect
 Camera2D
 AnimationTree
