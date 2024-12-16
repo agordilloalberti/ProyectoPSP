@@ -1,10 +1,11 @@
-[gd_scene load_steps=10 format=3 uid="uid://0s828rnwbm3y"]
+[gd_scene load_steps=11 format=3 uid="uid://0s828rnwbm3y"]
 
 [ext_resource type="Texture2D" uid="uid://fh23l053j7s5" path="res://TileSets/world_tileset.png" id="1_uf2ac"]
 [ext_resource type="PackedScene" uid="uid://bhoonv53uol3m" path="res://Scenes/Entities/player.tscn" id="2_mci6i"]
 [ext_resource type="PackedScene" uid="uid://dc1oqowdaewmy" path="res://Scenes/Props/castle.tscn" id="3_vf3l0"]
 [ext_resource type="PackedScene" uid="uid://do3gfhp2jjker" path="res://Scenes/Props/killzone.tscn" id="4_tfvka"]
 [ext_resource type="PackedScene" uid="uid://chsp3pelvhd1" path="res://Scenes/Props/Ladder.tscn" id="5_dnkk7"]
+[ext_resource type="PackedScene" uid="uid://cyynuc0t0jsqx" path="res://Scenes/Entities/slime_shooter.tscn" id="6_du42q"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_t81x7"]
 texture = ExtResource("1_uf2ac")
@@ -243,3 +244,6 @@ position = Vector2(812, -98)
 [node name="Castle2" parent="." instance=ExtResource("3_vf3l0")]
 position = Vector2(93, -122)
 nextWorldName = "win"
+
+[node name="slimeShooter" parent="." instance=ExtResource("6_du42q")]
+position = Vector2(169, -500)

@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a72b817c-0947-4f6f-8cb3-aa0143ff6e2c" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.ProyectoPSP/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ProyectoPSP/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="a72b817c-0947-4f6f-8cb3-aa0143ff6e2c" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -142,6 +140,7 @@
       <workItem from="1733411746616" duration="12713000" />
       <workItem from="1733853783811" duration="20000" />
       <workItem from="1733853811211" duration="4090000" />
+      <workItem from="1734015143918" duration="54000" />
     </task>
     <task id="LOCAL-00001" summary=".">
       <option name="closed" value="true" />
@@ -247,7 +246,23 @@
       <option name="project" value="LOCAL" />
       <updated>1733861391846</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="Añadido final al mundo 2 asi como una pantalla de victoria, añadido tambien unu nuevo tipo de enemigo pero falta su añadido especial">
+      <option name="closed" value="true" />
+      <created>1734015172710</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1734015172710</updated>
+    </task>
+    <task id="LOCAL-00015" summary="agregado la escena del castillo que se encarga de pasar de pantalla, un menu funcional (aunque sin nada mas que los botones, nada para la vista), añadido la muerte del slime mediante las dagas.">
+      <option name="closed" value="true" />
+      <created>1734015190556</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1734015190556</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -273,12 +288,12 @@
       <path value="$PROJECT_DIR$/Scripts" />
     </ignored-roots>
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
-    <MESSAGE value="agregado la escena del castillo que se encarga de pasar de pantalla, un menu funcional (aunque sin nada mas que los botones, nada para la vista), añadido la muerte del slime mediante las dagas." />
     <MESSAGE value="." />
     <MESSAGE value="Añadido el &quot;mundo 2&quot; asi como una pantall de muerte" />
     <MESSAGE value="Arreglados bugs anteriores, añadido al mas de mundo asi como el objeto escalera que queda por teminar" />
     <MESSAGE value="Conseguido el correcto funcionamiento de las escaleras." />
     <MESSAGE value="Añadido final al mundo 2 asi como una pantalla de victoria, añadido tambien unu nuevo tipo de enemigo pero falta su añadido especial" />
-    <option name="LAST_COMMIT_MESSAGE" value="Añadido final al mundo 2 asi como una pantalla de victoria, añadido tambien unu nuevo tipo de enemigo pero falta su añadido especial" />
+    <MESSAGE value="agregado la escena del castillo que se encarga de pasar de pantalla, un menu funcional (aunque sin nada mas que los botones, nada para la vista), añadido la muerte del slime mediante las dagas." />
+    <option name="LAST_COMMIT_MESSAGE" value="agregado la escena del castillo que se encarga de pasar de pantalla, un menu funcional (aunque sin nada mas que los botones, nada para la vista), añadido la muerte del slime mediante las dagas." />
   </component>
 </project>

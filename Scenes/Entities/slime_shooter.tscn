@@ -106,8 +106,12 @@ target_position = Vector2(0, 7)
 [node name="RayCastLeft" type="RayCast2D" parent="."]
 target_position = Vector2(-7, 0)
 
+[node name="Timer" type="Timer" parent="."]
+
 [node name="Killzone" parent="." instance=ExtResource("2_hppwh")]
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Killzone"]
 position = Vector2(0, -1)
 shape = SubResource("RectangleShape2D_uv1kt")
+
+[connection signal="timeout" from="Timer" to="." method="_on_timer_timeout"]
