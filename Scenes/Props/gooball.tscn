@@ -1,8 +1,8 @@
-[gd_scene load_steps=8 format=3 uid="uid://wkd53yigyqus"]
+[gd_scene load_steps=9 format=3 uid="uid://wkd53yigyqus"]
 
 [ext_resource type="Script" path="res://Scripts/Gooball.cs" id="1_1f000"]
 [ext_resource type="Texture2D" uid="uid://dtdjck1y206us" path="res://ExtraSprites/EnemyShot.png" id="1_3vgt7"]
-[ext_resource type="PackedScene" uid="uid://cyynuc0t0jsqx" path="res://Scenes/Entities/slime_shooter.tscn" id="3_71aw4"]
+[ext_resource type="PackedScene" uid="uid://do3gfhp2jjker" path="res://Scenes/Props/killzone.tscn" id="3_3k6hc"]
 
 [sub_resource type="CircleShape2D" id="CircleShape2D_e232r"]
 radius = 3.0
@@ -29,21 +29,32 @@ animations = [{
 "speed": 2.0
 }]
 
+[sub_resource type="CircleShape2D" id="CircleShape2D_gmoyk"]
+radius = 3.0
+
 [node name="gooball" type="Area2D"]
+collision_layer = 4
+collision_mask = 3
 script = ExtResource("1_1f000")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
 position = Vector2(0, -1)
 shape = SubResource("CircleShape2D_e232r")
 
-[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+[node name="Sprite" type="AnimatedSprite2D" parent="."]
 scale = Vector2(0.3, 0.3)
 sprite_frames = SubResource("SpriteFrames_kpb3h")
 animation = &"fly"
 autoplay = "fly"
-frame_progress = 0.400706
+frame_progress = 0.299312
 
-[node name="slimeShooter" parent="." instance=ExtResource("3_71aw4")]
-position = Vector2(-20, -1)
+[node name="Killzone" parent="." instance=ExtResource("3_3k6hc")]
 
-[connection signal="body_entered" from="." to="." method="_on_body_entered"]
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Killzone"]
+position = Vector2(0, -1)
+shape = SubResource("CircleShape2D_gmoyk")
+
+[node name="Timer" type="Timer" parent="."]
+
+[connection signal="body_entered" from="." to="." method="_on_body_entered2"]
+[connection signal="timeout" from="Timer" to="." method="_on_timer_timeout"]

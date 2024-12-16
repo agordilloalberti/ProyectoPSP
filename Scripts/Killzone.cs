@@ -15,6 +15,10 @@ public partial class Killzone : Area2D
 
     private void _on_body_entered(Player player)
     {
+        if (GetParent() is Gooball gooball)
+        {
+            gooball.hitPlayer=true;
+        }
         this.player = player;
         player.dead = true;
         Engine.TimeScale = 0.5;
@@ -23,6 +27,7 @@ public partial class Killzone : Area2D
 
     private void _on_timer_timeout()
     {
+        GD.Print("Reset");
         GetTree().ChangeSceneToFile("res://Scenes/UI/death_screen.tscn");
         GameManager.reset();
         Engine.TimeScale = 1;

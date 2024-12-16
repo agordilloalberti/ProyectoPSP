@@ -19,3 +19,4 @@ res://Scenes/UI/death_screen.tscn
 res://Scenes/UI/win_screen.tscn
 res://Scenes/Levels/world1.tscn
 res://Scenes/Props/dagger.tscn
+res://Scenes/Entities/slime.tscn

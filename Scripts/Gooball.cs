@@ -9,19 +9,23 @@ public partial class Gooball : Area2D
     private float maxDistance = 300;
     
     private float distanceTraveled;
-    private Sprite2D sprite; 
+    private AnimatedSprite2D sprite; 
     private int direction = 1;
+    private Killzone killzone;
+    private Timer timer;
+    public bool hitPlayer = false;
     
 
     public override void _Ready()
     {
-        sprite = GetNode<Sprite2D>("Sprite");
+        timer = GetNode<Timer>("Timer");
+        sprite = GetNode<AnimatedSprite2D>("Sprite");
+        killzone = GetNode<Killzone>("Killzone");
     }
 
 
     public override void _Process(double delta)
     {
-        
         Vector2 position = Position;
         distanceTraveled += speed*direction*(float)delta;
         position.X += speed*direction*(float)delta;
@@ -32,18 +36,27 @@ public partial class Gooball : Area2D
         }
     }
 
-    private void _on_body_entered(Node body)
+    private void _on_body_entered2(Node body)
     {
-        if (body is Player player)
+        //Todo: make the interaction go through correctly
+        if (!hitPlayer)
         {
-            player.dead=true;
+            QueueFree();
         }
+        else
+        {
+            timer.Start(1.5f);
+        }
+    }
+
+    private void _on_timer_timeout()
+    {
         QueueFree();
     }
     
     public void setDirection(bool flip, int dir)
     {
         direction = dir;
-        sprite.FlipH = flip;
+        sprite.FlipH = !flip;
     }
 }
