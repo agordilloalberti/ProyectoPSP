@@ -15,6 +15,7 @@ public partial class WinScreen : Control
 
     private void _on_statistics_pressed()
     {
-        GetTree().ChangeSceneToFile("res://Scenes/UI/statistics.tscn");
+        //TODO: Create the statistics screen and make it save enemies killed and coins collected
+        // GetTree().ChangeSceneToFile("res://Scenes/UI/statistics.tscn");
     }
 }
