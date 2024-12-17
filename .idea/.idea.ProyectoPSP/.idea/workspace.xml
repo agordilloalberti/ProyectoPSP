@@ -4,31 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a72b817c-0947-4f6f-8cb3-aa0143ff6e2c" name="Changes" comment="added the enemy projectile">
-      <change beforePath="$PROJECT_DIR$/.godot/editor/create_recent.Node" beforeDir="false" afterPath="$PROJECT_DIR$/.godot/editor/create_recent.Node" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.godot/editor/dagger.tscn-editstate-1c0b51926d76a417fedec778d30ec555.cfg" beforeDir="false" afterPath="$PROJECT_DIR$/.godot/editor/dagger.tscn-editstate-1c0b51926d76a417fedec778d30ec555.cfg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.godot/editor/editor_layout.cfg" beforeDir="false" afterPath="$PROJECT_DIR$/.godot/editor/editor_layout.cfg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.godot/editor/filesystem_update4" beforeDir="false" afterPath="$PROJECT_DIR$/.godot/editor/filesystem_update4" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.godot/editor/gooball.tscn-editstate-d973434c7172399f6513faad877e23f1.cfg" beforeDir="false" afterPath="$PROJECT_DIR$/.godot/editor/gooball.tscn-editstate-d973434c7172399f6513faad877e23f1.cfg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.godot/editor/gooball.tscn-folding-d973434c7172399f6513faad877e23f1.cfg" beforeDir="false" afterPath="$PROJECT_DIR$/.godot/editor/gooball.tscn-folding-d973434c7172399f6513faad877e23f1.cfg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.godot/editor/project_metadata.cfg" beforeDir="false" afterPath="$PROJECT_DIR$/.godot/editor/project_metadata.cfg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.godot/editor/slime.tscn-editstate-e8bd04db0b68504dc5b5211db78beba4.cfg" beforeDir="false" afterPath="$PROJECT_DIR$/.godot/editor/slime.tscn-editstate-e8bd04db0b68504dc5b5211db78beba4.cfg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.godot/editor/slime_shooter.tscn-folding-fba98afda166817fc6f5d4512f1391f7.cfg" beforeDir="false" afterPath="$PROJECT_DIR$/.godot/editor/slime_shooter.tscn-folding-fba98afda166817fc6f5d4512f1391f7.cfg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.godot/editor/world2.tscn-editstate-5324816ce9f57037862b1f1ef4f56db3.cfg" beforeDir="false" afterPath="$PROJECT_DIR$/.godot/editor/world2.tscn-editstate-5324816ce9f57037862b1f1ef4f56db3.cfg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.godot/mono/temp/bin/Debug/ProyectoPSP.dll" beforeDir="false" afterPath="$PROJECT_DIR$/.godot/mono/temp/bin/Debug/ProyectoPSP.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.godot/mono/temp/bin/Debug/ProyectoPSP.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/.godot/mono/temp/bin/Debug/ProyectoPSP.pdb" afterDir="false" />
+    <list default="true" id="a72b817c-0947-4f6f-8cb3-aa0143ff6e2c" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.godot/mono/temp/obj/Debug/ProyectoPSP.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/.godot/mono/temp/obj/Debug/ProyectoPSP.AssemblyInfo.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.godot/mono/temp/obj/Debug/ProyectoPSP.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/.godot/mono/temp/obj/Debug/ProyectoPSP.AssemblyInfoInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.godot/mono/temp/obj/Debug/ProyectoPSP.dll" beforeDir="false" afterPath="$PROJECT_DIR$/.godot/mono/temp/obj/Debug/ProyectoPSP.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.godot/mono/temp/obj/Debug/ProyectoPSP.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/.godot/mono/temp/obj/Debug/ProyectoPSP.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.godot/mono/temp/obj/Debug/ProyectoPSP.sourcelink.json" beforeDir="false" afterPath="$PROJECT_DIR$/.godot/mono/temp/obj/Debug/ProyectoPSP.sourcelink.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.godot/mono/temp/obj/Debug/ref/ProyectoPSP.dll" beforeDir="false" afterPath="$PROJECT_DIR$/.godot/mono/temp/obj/Debug/ref/ProyectoPSP.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.godot/mono/temp/obj/Debug/refint/ProyectoPSP.dll" beforeDir="false" afterPath="$PROJECT_DIR$/.godot/mono/temp/obj/Debug/refint/ProyectoPSP.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.ProyectoPSP/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ProyectoPSP/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scenes/Entities/slime_shooter.tscn" beforeDir="false" afterPath="$PROJECT_DIR$/Scenes/Entities/slime_shooter.tscn" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scenes/Props/gooball.tscn" beforeDir="false" afterPath="$PROJECT_DIR$/Scenes/Props/gooball.tscn" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scripts/Gooball.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Scripts/Gooball.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scripts/Killzone.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Scripts/Killzone.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,6 +21,10 @@
   </component>
   <component name="DpaMonitoringSettings">
     <option name="autoShow" value="false" />
+  </component>
+  <component name="ExportToHTMLSettings">
+    <option name="printScope" value="4" />
+    <option name="OUTPUT_DIRECTORY" value="G:/Instituto/Godot/Godot" />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -67,7 +50,9 @@
   &quot;associatedIndex&quot;: 5
 }</component>
   <component name="ProjectId" id="2oRHSSs1HItXO0hoyG9jtOoutkP" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
