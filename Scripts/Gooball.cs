@@ -12,13 +12,10 @@ public partial class Gooball : Area2D
     private AnimatedSprite2D sprite; 
     private int direction = 1;
     private Killzone killzone;
-    private Timer timer;
-    public bool hitPlayer = false;
     
 
     public override void _Ready()
     {
-        timer = GetNode<Timer>("Timer");
         sprite = GetNode<AnimatedSprite2D>("Sprite");
         killzone = GetNode<Killzone>("Killzone");
     }
@@ -38,20 +35,12 @@ public partial class Gooball : Area2D
 
     private void _on_body_entered2(Node body)
     {
-        //Todo: make the interaction go through correctly
-        if (!hitPlayer)
+        speed = 0f;
+        Hide();
+        if (body is not Player)
         {
             QueueFree();
         }
-        else
-        {
-            timer.Start(1.5f);
-        }
-    }
-
-    private void _on_timer_timeout()
-    {
-        QueueFree();
     }
     
     public void setDirection(bool flip, int dir)

@@ -4,7 +4,7 @@
 [ext_resource type="PackedScene" uid="uid://bhoonv53uol3m" path="res://Scenes/Entities/player.tscn" id="2_mci6i"]
 [ext_resource type="PackedScene" uid="uid://dc1oqowdaewmy" path="res://Scenes/Props/castle.tscn" id="3_vf3l0"]
 [ext_resource type="PackedScene" uid="uid://do3gfhp2jjker" path="res://Scenes/Props/killzone.tscn" id="4_tfvka"]
-[ext_resource type="PackedScene" uid="uid://chsp3pelvhd1" path="res://Scenes/Props/Ladder.tscn" id="5_dnkk7"]
+[ext_resource type="PackedScene" uid="uid://chsp3pelvhd1" path="res://Scenes/Props/ladder.tscn" id="5_dnkk7"]
 [ext_resource type="PackedScene" uid="uid://cyynuc0t0jsqx" path="res://Scenes/Entities/slime_shooter.tscn" id="6_du42q"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_t81x7"]
