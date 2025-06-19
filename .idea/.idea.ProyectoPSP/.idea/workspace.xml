@@ -5,14 +5,64 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a72b817c-0947-4f6f-8cb3-aa0143ff6e2c" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.godot/editor/create_recent.Node" beforeDir="false" afterPath="$PROJECT_DIR$/.godot/editor/create_recent.Node" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.godot/editor/death_screen.tscn-editstate-647c255a2d7618ccac2382e1b044185b.cfg" beforeDir="false" afterPath="$PROJECT_DIR$/.godot/editor/death_screen.tscn-editstate-647c255a2d7618ccac2382e1b044185b.cfg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.godot/editor/editor_layout.cfg" beforeDir="false" afterPath="$PROJECT_DIR$/.godot/editor/editor_layout.cfg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.godot/editor/filesystem_cache8" beforeDir="false" afterPath="$PROJECT_DIR$/.godot/editor/filesystem_cache8" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.godot/editor/filesystem_update4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.godot/editor/filesystem_update4" beforeDir="false" afterPath="$PROJECT_DIR$/.godot/editor/filesystem_update4" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.godot/editor/gooball.tscn-editstate-d973434c7172399f6513faad877e23f1.cfg" beforeDir="false" afterPath="$PROJECT_DIR$/.godot/editor/gooball.tscn-editstate-d973434c7172399f6513faad877e23f1.cfg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.godot/editor/menu.tscn-editstate-38f20c91cb9b57c286c989a306da7841.cfg" beforeDir="false" afterPath="$PROJECT_DIR$/.godot/editor/menu.tscn-editstate-38f20c91cb9b57c286c989a306da7841.cfg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.godot/editor/menu.tscn-folding-38f20c91cb9b57c286c989a306da7841.cfg" beforeDir="false" afterPath="$PROJECT_DIR$/.godot/editor/menu.tscn-folding-38f20c91cb9b57c286c989a306da7841.cfg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.godot/editor/project_metadata.cfg" beforeDir="false" afterPath="$PROJECT_DIR$/.godot/editor/project_metadata.cfg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.godot/editor/recent_dirs" beforeDir="false" afterPath="$PROJECT_DIR$/.godot/editor/recent_dirs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.godot/editor/script_editor_cache.cfg" beforeDir="false" afterPath="$PROJECT_DIR$/.godot/editor/script_editor_cache.cfg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.godot/editor/slime_shooter.tscn-editstate-fba98afda166817fc6f5d4512f1391f7.cfg" beforeDir="false" afterPath="$PROJECT_DIR$/.godot/editor/slime_shooter.tscn-editstate-fba98afda166817fc6f5d4512f1391f7.cfg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.godot/editor/win_screen.tscn-editstate-d31a3a00a2a586b8c5045c11376e5b10.cfg" beforeDir="false" afterPath="$PROJECT_DIR$/.godot/editor/win_screen.tscn-editstate-d31a3a00a2a586b8c5045c11376e5b10.cfg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.godot/editor/world1.tscn-editstate-e63933e26024554c6dccf6f7bc85638d.cfg" beforeDir="false" afterPath="$PROJECT_DIR$/.godot/editor/world1.tscn-editstate-e63933e26024554c6dccf6f7bc85638d.cfg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.godot/editor/world2.tscn-editstate-5324816ce9f57037862b1f1ef4f56db3.cfg" beforeDir="false" afterPath="$PROJECT_DIR$/.godot/editor/world2.tscn-editstate-5324816ce9f57037862b1f1ef4f56db3.cfg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.godot/global_script_class_cache.cfg" beforeDir="false" afterPath="$PROJECT_DIR$/.godot/global_script_class_cache.cfg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.godot/imported/icon.svg-218a8f2b3041327d8a5756f3a245f83b.ctex" beforeDir="false" afterPath="$PROJECT_DIR$/.godot/imported/icon.svg-218a8f2b3041327d8a5756f3a245f83b.ctex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.godot/imported/icon.svg-218a8f2b3041327d8a5756f3a245f83b.md5" beforeDir="false" afterPath="$PROJECT_DIR$/.godot/imported/icon.svg-218a8f2b3041327d8a5756f3a245f83b.md5" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.godot/mono/metadata/ide_messaging_meta.txt" beforeDir="false" afterPath="$PROJECT_DIR$/.godot/mono/metadata/ide_messaging_meta.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.godot/mono/temp/bin/Debug/GodotSharp.dll" beforeDir="false" afterPath="$PROJECT_DIR$/.godot/mono/temp/bin/Debug/GodotSharp.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.godot/mono/temp/bin/Debug/GodotSharpEditor.dll" beforeDir="false" afterPath="$PROJECT_DIR$/.godot/mono/temp/bin/Debug/GodotSharpEditor.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.godot/mono/temp/bin/Debug/ProyectoPSP.deps.json" beforeDir="false" afterPath="$PROJECT_DIR$/.godot/mono/temp/bin/Debug/ProyectoPSP.deps.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.godot/mono/temp/bin/Debug/ProyectoPSP.dll" beforeDir="false" afterPath="$PROJECT_DIR$/.godot/mono/temp/bin/Debug/ProyectoPSP.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.godot/mono/temp/bin/Debug/ProyectoPSP.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/.godot/mono/temp/bin/Debug/ProyectoPSP.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.godot/mono/temp/bin/Debug/ProyectoPSP.runtimeconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/.godot/mono/temp/bin/Debug/ProyectoPSP.runtimeconfig.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.godot/mono/temp/obj/Debug/ProyectoPSP.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/.godot/mono/temp/obj/Debug/ProyectoPSP.AssemblyInfo.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.godot/mono/temp/obj/Debug/ProyectoPSP.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/.godot/mono/temp/obj/Debug/ProyectoPSP.AssemblyInfoInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.godot/mono/temp/obj/Debug/ProyectoPSP.GeneratedMSBuildEditorConfig.editorconfig" beforeDir="false" afterPath="$PROJECT_DIR$/.godot/mono/temp/obj/Debug/ProyectoPSP.GeneratedMSBuildEditorConfig.editorconfig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.godot/mono/temp/obj/Debug/ProyectoPSP.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/.godot/mono/temp/obj/Debug/ProyectoPSP.assets.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.godot/mono/temp/obj/Debug/ProyectoPSP.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/.godot/mono/temp/obj/Debug/ProyectoPSP.csproj.AssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.godot/mono/temp/obj/Debug/ProyectoPSP.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/.godot/mono/temp/obj/Debug/ProyectoPSP.csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.godot/mono/temp/obj/Debug/ProyectoPSP.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/.godot/mono/temp/obj/Debug/ProyectoPSP.csproj.FileListAbsolute.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.godot/mono/temp/obj/Debug/ProyectoPSP.dll" beforeDir="false" afterPath="$PROJECT_DIR$/.godot/mono/temp/obj/Debug/ProyectoPSP.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.godot/mono/temp/obj/Debug/ProyectoPSP.genruntimeconfig.cache" beforeDir="false" afterPath="$PROJECT_DIR$/.godot/mono/temp/obj/Debug/ProyectoPSP.genruntimeconfig.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.godot/mono/temp/obj/Debug/ProyectoPSP.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/.godot/mono/temp/obj/Debug/ProyectoPSP.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.godot/mono/temp/obj/Debug/ProyectoPSP.sourcelink.json" beforeDir="false" afterPath="$PROJECT_DIR$/.godot/mono/temp/obj/Debug/ProyectoPSP.sourcelink.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.godot/mono/temp/obj/Debug/ref/ProyectoPSP.dll" beforeDir="false" afterPath="$PROJECT_DIR$/.godot/mono/temp/obj/Debug/ref/ProyectoPSP.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.godot/mono/temp/obj/Debug/refint/ProyectoPSP.dll" beforeDir="false" afterPath="$PROJECT_DIR$/.godot/mono/temp/obj/Debug/refint/ProyectoPSP.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.godot/mono/temp/obj/ProyectoPSP.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/.godot/mono/temp/obj/ProyectoPSP.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.godot/mono/temp/obj/ProyectoPSP.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/.godot/mono/temp/obj/ProyectoPSP.csproj.nuget.g.props" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.godot/mono/temp/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/.godot/mono/temp/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.godot/mono/temp/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/.godot/mono/temp/obj/project.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.godot/mono/temp/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/.godot/mono/temp/obj/project.packagespec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.godot/mono/temp/obj/rider.project.model.nuget.info" beforeDir="false" afterPath="$PROJECT_DIR$/.godot/mono/temp/obj/rider.project.model.nuget.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.godot/mono/temp/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/.godot/mono/temp/obj/rider.project.restore.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.godot/uid_cache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.godot/uid_cache.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.ProyectoPSP/.idea/.name" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.ProyectoPSP/.idea/projectSettingsUpdater.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ProyectoPSP/.idea/projectSettingsUpdater.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.ProyectoPSP/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ProyectoPSP/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scripts/Statistics.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProyectoPSP.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/ProyectoPSP.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Scenes/Entities/slime_shooter.tscn" beforeDir="false" afterPath="$PROJECT_DIR$/Scenes/Entities/slime_shooter.tscn" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Scenes/Levels/world1.tscn" beforeDir="false" afterPath="$PROJECT_DIR$/Scenes/Levels/world1.tscn" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Scenes/Props/gooball.tscn" beforeDir="false" afterPath="$PROJECT_DIR$/Scenes/Props/gooball.tscn" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Scenes/UI/death_screen.tscn" beforeDir="false" afterPath="$PROJECT_DIR$/Scenes/UI/death_screen.tscn" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Scenes/UI/menu.tscn" beforeDir="false" afterPath="$PROJECT_DIR$/Scenes/UI/menu.tscn" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Scenes/UI/win_screen.tscn" beforeDir="false" afterPath="$PROJECT_DIR$/Scenes/UI/win_screen.tscn" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Scripts/Menu.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Scripts/Menu.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Scripts/Player.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Scripts/Player.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project.godot" beforeDir="false" afterPath="$PROJECT_DIR$/project.godot" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,12 +90,12 @@
     &quot;assignee&quot;: &quot;agordilloalberti&quot;
   }
 }</component>
-  <component name="GithubPullRequestsUISettings">{
-  &quot;selectedUrlAndAccountId&quot;: {
-    &quot;url&quot;: &quot;https://github.com/agordilloalberti/ProyectoPSP&quot;,
-    &quot;accountId&quot;: &quot;db802959-4641-4c4a-90f2-c1506ca3a4da&quot;
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/agordilloalberti/ProyectoPSP",
+    "accountId": "85f34cba-2a6f-404d-8d11-e9a51279fb81"
   }
-}</component>
+}]]></component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/23fd556cc1333e1428b66422f2ce9db97b81d8d173ceefda39d58c9b0146f2c/CharacterBody2D.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/55e3ab646e3918835f96cfdcb7ad6f0365b62ec892cede2d7e26a241ff51eca/AnimatedSprite2D.cs" root0="FORCE_HIGHLIGHTING" />
@@ -55,30 +105,31 @@
   &quot;associatedIndex&quot;: 5
 }</component>
   <component name="ProjectId" id="2oRHSSs1HItXO0hoyG9jtOoutkP" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+  <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;.NET Executable.Editor.executor&quot;: &quot;Run&quot;,
-    &quot;.NET Executable.Player.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/UsuarioT/Documents/proyectopsp&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;project.propVCSSupport.Confirmation&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    ".NET Executable.Editor.executor": "Run",
+    ".NET Executable.Player.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "master",
+    "ignore.virus.scanning.warn.message": "true",
+    "last_opened_file_path": "C:/Users/UsuarioT/Documents/proyectopsp",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "project.propVCSSupport.Confirmation",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RunManager" selected=".NET Executable.Player">
     <configuration name="Player GDScript" type="GDSCRIPT_DEBUG_RUN_CONFIGURATION" factoryName="GdScriptRunFactory" show_console_on_std_err="false" show_console_on_std_out="false" port="6006">
       <option name="address" value="127.0.0.1" />
@@ -91,26 +142,36 @@
       <method v="2" />
     </configuration>
     <configuration name="Editor" type="RunExe" factoryName=".NET Executable">
-      <option name="EXE_PATH" value="E:/usuarioT/Godot_v4.3-stable_mono_win64/Godot_v4.3-stable_mono_win64.exe" />
+      <option name="EXE_PATH" value="$USER_HOME$/Desktop/Programas/Godot_v4.4.1-stable_mono_win64/Godot_v4.4.1-stable_mono_win64.exe" />
       <option name="PROGRAM_PARAMETERS" value="--path &quot;./&quot; --editor" />
-      <option name="WORKING_DIRECTORY" value="C:\Users\UsuarioT\Documents\proyectopsp" />
+      <option name="WORKING_DIRECTORY" value="C:\Users\Alvar\RiderProjects\ProyectoPSP" />
       <option name="PASS_PARENT_ENVS" value="1" />
       <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <option name="ENV_FILE_PATHS" value="" />
+      <option name="REDIRECT_INPUT_PATH" value="" />
+      <option name="PTY_MODE" value="Auto" />
       <option name="USE_MONO" value="0" />
       <option name="RUNTIME_ARGUMENTS" value="" />
+      <option name="AUTO_ATTACH_CHILDREN" value="0" />
+      <option name="MIXED_MODE_DEBUG" value="0" />
       <option name="RUNTIME_TYPE" value="coreclr" />
       <method v="2">
         <option name="Build Solution" enabled="true" />
       </method>
     </configuration>
     <configuration name="Player" type="RunExe" factoryName=".NET Executable">
-      <option name="EXE_PATH" value="E:/usuarioT/Godot_v4.3-stable_mono_win64/Godot_v4.3-stable_mono_win64.exe" />
+      <option name="EXE_PATH" value="$USER_HOME$/Desktop/Programas/Godot_v4.4.1-stable_mono_win64/Godot_v4.4.1-stable_mono_win64.exe" />
       <option name="PROGRAM_PARAMETERS" value="--path &quot;./&quot;" />
-      <option name="WORKING_DIRECTORY" value="C:\Users\UsuarioT\Documents\proyectopsp" />
+      <option name="WORKING_DIRECTORY" value="C:\Users\Alvar\RiderProjects\ProyectoPSP" />
       <option name="PASS_PARENT_ENVS" value="1" />
       <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <option name="ENV_FILE_PATHS" value="" />
+      <option name="REDIRECT_INPUT_PATH" value="" />
+      <option name="PTY_MODE" value="Auto" />
       <option name="USE_MONO" value="0" />
       <option name="RUNTIME_ARGUMENTS" value="" />
+      <option name="AUTO_ATTACH_CHILDREN" value="0" />
+      <option name="MIXED_MODE_DEBUG" value="0" />
       <option name="RUNTIME_TYPE" value="coreclr" />
       <method v="2">
         <option name="Build Solution" enabled="true" />
@@ -160,6 +221,8 @@
       <workItem from="1734450558870" duration="514000" />
       <workItem from="1734458276816" duration="90000" />
       <workItem from="1734458378064" duration="173000" />
+      <workItem from="1744997238667" duration="7000" />
+      <workItem from="1750329115152" duration="2062000" />
     </task>
     <task id="LOCAL-00001" summary=".">
       <option name="closed" value="true" />
@@ -334,7 +397,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CHECK_NEW_TODO" value="false" />
-    <option name="LOCAL_CHANGES_DETAILS_PREVIEW_SHOWN" value="false" />
     <ignored-roots>
       <path value="$PROJECT_DIR$/Scripts" />
     </ignored-roots>
@@ -348,5 +410,23 @@
     <MESSAGE value="Fixed interaction with the player" />
     <MESSAGE value="." />
     <option name="LAST_COMMIT_MESSAGE" value="." />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" type="DotNet_Exception_Breakpoints">
+          <properties exception="System.OperationCanceledException" breakIfHandledByOtherCode="false" displayValue="System.OperationCanceledException" />
+          <option name="timeStamp" value="1" />
+        </breakpoint>
+        <breakpoint enabled="true" type="DotNet_Exception_Breakpoints">
+          <properties exception="System.Threading.Tasks.TaskCanceledException" breakIfHandledByOtherCode="false" displayValue="System.Threading.Tasks.TaskCanceledException" />
+          <option name="timeStamp" value="2" />
+        </breakpoint>
+        <breakpoint enabled="true" type="DotNet_Exception_Breakpoints">
+          <properties exception="System.Threading.ThreadAbortException" breakIfHandledByOtherCode="false" displayValue="System.Threading.ThreadAbortException" />
+          <option name="timeStamp" value="3" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

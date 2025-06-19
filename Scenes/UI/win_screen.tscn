@@ -1,6 +1,6 @@
 [gd_scene load_steps=3 format=3 uid="uid://dopip5b6sle8a"]
 
-[ext_resource type="Script" path="res://Scripts/WinScreen.cs" id="1_ugqif"]
+[ext_resource type="Script" uid="uid://bacm2hxc5brm1" path="res://Scripts/WinScreen.cs" id="1_ugqif"]
 
 [sub_resource type="LabelSettings" id="LabelSettings_2scp1"]
 font_size = 50

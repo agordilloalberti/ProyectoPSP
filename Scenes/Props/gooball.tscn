@@ -1,6 +1,6 @@
 [gd_scene load_steps=9 format=3 uid="uid://wkd53yigyqus"]
 
-[ext_resource type="Script" path="res://Scripts/Gooball.cs" id="1_1f000"]
+[ext_resource type="Script" uid="uid://d4qkkyp7tsi7" path="res://Scripts/Gooball.cs" id="1_1f000"]
 [ext_resource type="Texture2D" uid="uid://dtdjck1y206us" path="res://ExtraSprites/EnemyShot.png" id="1_3vgt7"]
 [ext_resource type="PackedScene" uid="uid://do3gfhp2jjker" path="res://Scenes/Props/killzone.tscn" id="3_3k6hc"]
 

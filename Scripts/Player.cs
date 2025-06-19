@@ -142,7 +142,7 @@ public partial class Player : CharacterBody2D
 		if (!isOnLadder)
 		{
 			if (Input.IsActionJustPressed("jump")
-			    && (IsOnFloor() || NoClip)
+				&& (IsOnFloor() || NoClip)
 			   )
 			{
 				velocity.Y = JumpVelocity;

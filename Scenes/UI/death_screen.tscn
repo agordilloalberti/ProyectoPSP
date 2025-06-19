@@ -1,6 +1,6 @@
 [gd_scene load_steps=6 format=3 uid="uid://k6nvqu3ynjn4"]
 
-[ext_resource type="Script" path="res://Scripts/DeathScreen.cs" id="1_3yiqo"]
+[ext_resource type="Script" uid="uid://3p2u5ks5c3n4" path="res://Scripts/DeathScreen.cs" id="1_3yiqo"]
 [ext_resource type="Texture2D" uid="uid://cxrjehyhclla8" path="res://ExtraSprites/DeathScreenBackground-1.png" id="2_vybka"]
 [ext_resource type="Texture2D" uid="uid://dyu8j2y1gws11" path="res://ExtraSprites/DeathScreenBackground-2.png" id="3_2q0eo"]
 

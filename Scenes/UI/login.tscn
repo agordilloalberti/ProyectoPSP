@@ -1,0 +1,74 @@
+[gd_scene load_steps=3 format=3 uid="uid://d1y40pkumsh54"]
+
+[ext_resource type="Script" uid="uid://dw5yge7wk5jyu" path="res://Scripts/Login.cs" id="1_sqeiq"]
+
+[sub_resource type="LabelSettings" id="LabelSettings_sqeiq"]
+font_size = 20
+font_color = Color(0, 0, 0, 1)
+
+[node name="Control" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_sqeiq")
+
+[node name="ColorRect" type="ColorRect" parent="."]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_top = -3.0
+offset_right = 1.0
+offset_bottom = -2.0
+grow_horizontal = 2
+grow_vertical = 2
+color = Color(0.662657, 0.947348, 0.996935, 1)
+
+[node name="HTTPRequest GET" type="HTTPRequest" parent="."]
+
+[node name="HTTPRequest POST" type="HTTPRequest" parent="."]
+
+[node name="VBoxContainer" type="VBoxContainer" parent="."]
+layout_mode = 0
+offset_left = 229.0
+offset_top = 114.0
+offset_right = 518.0
+offset_bottom = 258.0
+alignment = 1
+
+[node name="Label" type="Label" parent="VBoxContainer"]
+layout_mode = 2
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+text = "Introduzca su nombre de usuario"
+label_settings = SubResource("LabelSettings_sqeiq")
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="usuario" type="TextEdit" parent="VBoxContainer"]
+layout_mode = 2
+placeholder_text = "Usuario"
+scroll_fit_content_height = true
+
+[node name="HBoxContainer" type="HBoxContainer" parent="VBoxContainer"]
+layout_mode = 2
+alignment = 1
+
+[node name="Registrar" type="Button" parent="VBoxContainer/HBoxContainer"]
+layout_mode = 2
+action_mode = 0
+text = "Registrar Usuario"
+
+[node name="Iniciar" type="Button" parent="VBoxContainer/HBoxContainer"]
+layout_mode = 2
+text = "Iniciar sesión"
+
+[node name="Volver" type="Button" parent="VBoxContainer/HBoxContainer"]
+layout_mode = 2
+text = "Volver"
+
+[connection signal="pressed" from="VBoxContainer/HBoxContainer/Registrar" to="." method="_on_registrar_pressed"]
+[connection signal="pressed" from="VBoxContainer/HBoxContainer/Iniciar" to="." method="_on_login_pressed"]
+[connection signal="pressed" from="VBoxContainer/HBoxContainer/Volver" to="." method="_on_volver_pressed"]

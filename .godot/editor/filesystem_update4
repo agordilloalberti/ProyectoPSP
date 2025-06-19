@@ -1,1 +1,16 @@
-res://Scenes/UI/win_screen.tscn
+res://Scenes/UI/login.tscn
+res://Scenes/UI/menu.tscn
+res://Scripts/Coin.cs
+res://Scripts/WinScreen.cs
+res://Scripts/Ladder.cs
+res://Scripts/Player.cs
+res://Scripts/Dagger.cs
+res://Scripts/SlimeShooter.cs
+res://Scripts/Castle.cs
+res://Scripts/GameManager.cs
+res://Scripts/DeathScreen.cs
+res://Scripts/Menu.cs
+res://Scripts/Slime.cs
+res://Scripts/Gooball.cs
+res://Scripts/Killzone.cs
+res://Scripts/Login.cs
